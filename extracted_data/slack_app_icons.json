@@ -1,0 +1,294 @@
+{
+  "table_name": "slack_app_icons",
+  "columns": [
+    "id",
+    "app_id",
+    "size",
+    "url",
+    "created_at"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.414187",
+  "data": [
+    {
+      "id": 6330456,
+      "app_id": "IU6FUN14JID7",
+      "size": 16,
+      "url": "https://harbor.slack.com/status/mucrvram",
+      "created_at": "2025-05-10 12:18:51"
+    },
+    {
+      "id": 3192509,
+      "app_id": "IPKQ6WUL6Q59",
+      "size": 24,
+      "url": "https://lattice.slack.com/privacy/iz1eg0w1",
+      "created_at": "2025-07-10 02:06:08"
+    },
+    {
+      "id": 6572635,
+      "app_id": "ISH1HRVY1P0Z",
+      "size": 32,
+      "url": "https://northstar.slack.com/status/szxibt9m",
+      "created_at": "2025-03-16 21:25:36"
+    },
+    {
+      "id": 6695826,
+      "app_id": "IAYKP0V0TPWF",
+      "size": 48,
+      "url": "https://northstar.slack.com/help/u4de953z",
+      "created_at": "2025-01-26 04:03:57"
+    },
+    {
+      "id": 565851,
+      "app_id": "ISI8RR4YS3OM",
+      "size": 64,
+      "url": "https://northstar.slack.com/about/4wn6khu2",
+      "created_at": "2025-05-01 04:44:51"
+    },
+    {
+      "id": 3733793,
+      "app_id": "IHS59CCWWALZ",
+      "size": 72,
+      "url": "https://silverline.slack.com/about/u10a0eip",
+      "created_at": "2025-07-17 23:20:29"
+    },
+    {
+      "id": 7605779,
+      "app_id": "IATLYSLPQ6EJ",
+      "size": 96,
+      "url": "https://summit.slack.com/about/63vmucnc",
+      "created_at": "2025-06-03 17:03:14"
+    },
+    {
+      "id": 6445536,
+      "app_id": "IRBXIGI3OBRR",
+      "size": 128,
+      "url": "https://granite.slack.com/home/ymwytca8",
+      "created_at": "2025-04-09 13:04:32"
+    },
+    {
+      "id": 1593221,
+      "app_id": "IW08KVXEVXBI",
+      "size": 192,
+      "url": "https://northstar.slack.com/home/qjstdxsh",
+      "created_at": "2025-08-20 13:55:28"
+    },
+    {
+      "id": 3299142,
+      "app_id": "IR8T8HM605D6",
+      "size": 256,
+      "url": "https://harbor.slack.com/privacy/2qw8swwm",
+      "created_at": "2025-08-20 20:56:12"
+    },
+    {
+      "id": 3376613,
+      "app_id": "IY2LXIGSHMIC",
+      "size": 512,
+      "url": "https://apex.slack.com/about/46ekmmug",
+      "created_at": "2025-01-18 13:20:38"
+    },
+    {
+      "id": 4276027,
+      "app_id": "IVCON41Y0RIG",
+      "size": 16,
+      "url": "https://northstar.slack.com/privacy/271c0ve1",
+      "created_at": "2025-01-02 13:55:40"
+    },
+    {
+      "id": 207648,
+      "app_id": "INP3I8LE64NX",
+      "size": 24,
+      "url": "https://northstar.slack.com/asset/klypjsg8",
+      "created_at": "2025-04-24 07:33:25"
+    },
+    {
+      "id": 1124442,
+      "app_id": "ITHASGOLZ0SA",
+      "size": 32,
+      "url": "https://harbor.slack.com/file/pcf2c67n",
+      "created_at": "2025-03-31 15:56:28"
+    },
+    {
+      "id": 6943771,
+      "app_id": "I5ZC547WC1OG",
+      "size": 48,
+      "url": "https://beacon.slack.com/status/yl45jpwc",
+      "created_at": "2025-03-29 14:56:23"
+    },
+    {
+      "id": 8052682,
+      "app_id": "ITD20SWL81GO",
+      "size": 64,
+      "url": "https://lattice.slack.com/asset/s4ue4fkp",
+      "created_at": "2025-03-13 15:01:06"
+    },
+    {
+      "id": 730442,
+      "app_id": "IPOS0F59MOL7",
+      "size": 72,
+      "url": "https://granite.slack.com/help/5exiytmu",
+      "created_at": "2025-05-03 02:01:18"
+    },
+    {
+      "id": 7185678,
+      "app_id": "I78UHJ5LMPTZ",
+      "size": 96,
+      "url": "https://apex.slack.com/asset/kwx7qxk6",
+      "created_at": "2025-06-22 19:12:48"
+    },
+    {
+      "id": 9265533,
+      "app_id": "IX46UY7I7RWK",
+      "size": 128,
+      "url": "https://silverline.slack.com/docs/j35ggtbc",
+      "created_at": "2025-05-15 19:36:10"
+    },
+    {
+      "id": 8698558,
+      "app_id": "I3XZPYKCE7Q1",
+      "size": 192,
+      "url": "https://summit.slack.com/home/11r8prnv",
+      "created_at": "2025-06-29 10:45:09"
+    },
+    {
+      "id": 9284858,
+      "app_id": "I5F3ZHQ7X3FD",
+      "size": 256,
+      "url": "https://harbor.slack.com/help/qbfk37zs",
+      "created_at": "2025-09-04 10:09:21"
+    },
+    {
+      "id": 3499606,
+      "app_id": "IO23U0N858NR",
+      "size": 512,
+      "url": "https://apex.slack.com/asset/8kbsao9v",
+      "created_at": "2025-08-31 19:01:35"
+    },
+    {
+      "id": 5547510,
+      "app_id": "IK51PWMU18AX",
+      "size": 16,
+      "url": "https://apex.slack.com/privacy/ga0koo59",
+      "created_at": "2025-01-14 19:05:18"
+    },
+    {
+      "id": 6133492,
+      "app_id": "IPIYLGS22SK7",
+      "size": 24,
+      "url": "https://harbor.slack.com/home/lb3ls5a4",
+      "created_at": "2025-03-27 07:44:18"
+    },
+    {
+      "id": 3528270,
+      "app_id": "I81SRR876RD6",
+      "size": 32,
+      "url": "https://granite.slack.com/about/7rj4v6gs",
+      "created_at": "2025-03-14 19:05:36"
+    },
+    {
+      "id": 5834817,
+      "app_id": "IN7PGCEH4PLN",
+      "size": 48,
+      "url": "https://northstar.slack.com/asset/j3poaf5a",
+      "created_at": "2025-08-20 10:44:11"
+    },
+    {
+      "id": 9167822,
+      "app_id": "I55OATOWHDUP",
+      "size": 64,
+      "url": "https://lattice.slack.com/docs/bv2oq706",
+      "created_at": "2025-05-27 14:47:15"
+    },
+    {
+      "id": 1613308,
+      "app_id": "IO48SBWCPPRB",
+      "size": 72,
+      "url": "https://silverline.slack.com/status/p6wftojr",
+      "created_at": "2025-07-04 23:35:37"
+    },
+    {
+      "id": 5498120,
+      "app_id": "IYCLXRY1X9CJ",
+      "size": 96,
+      "url": "https://silverline.slack.com/help/tufcnqkz",
+      "created_at": "2025-01-23 01:00:20"
+    },
+    {
+      "id": 8858444,
+      "app_id": "IVJ6HSZ6OHNS",
+      "size": 128,
+      "url": "https://lattice.slack.com/help/76qxsijo",
+      "created_at": "2025-05-06 12:08:26"
+    },
+    {
+      "id": 8486210,
+      "app_id": "I91UMX4B49YQ",
+      "size": 192,
+      "url": "https://beacon.slack.com/status/8ixd8w4c",
+      "created_at": "2025-03-22 12:09:00"
+    },
+    {
+      "id": 1230743,
+      "app_id": "IICUI7F1VXCE",
+      "size": 256,
+      "url": "https://lattice.slack.com/home/935mj8sf",
+      "created_at": "2025-08-28 19:43:06"
+    },
+    {
+      "id": 6320797,
+      "app_id": "I8ESKFNKJT7A",
+      "size": 512,
+      "url": "https://northstar.slack.com/file/wi6ictxb",
+      "created_at": "2025-03-05 23:40:56"
+    },
+    {
+      "id": 7711214,
+      "app_id": "ILXPDR6D2SUV",
+      "size": 16,
+      "url": "https://granite.slack.com/asset/96flmqiw",
+      "created_at": "2025-01-05 11:58:29"
+    },
+    {
+      "id": 362920,
+      "app_id": "IIG1QV1IMWA4",
+      "size": 24,
+      "url": "https://granite.slack.com/privacy/59f5a6ee",
+      "created_at": "2025-06-07 20:47:11"
+    },
+    {
+      "id": 5355531,
+      "app_id": "I6639FUAO4GK",
+      "size": 32,
+      "url": "https://lattice.slack.com/file/v91b40ha",
+      "created_at": "2025-01-02 21:55:58"
+    },
+    {
+      "id": 6217741,
+      "app_id": "IG4HQKZ4TGGM",
+      "size": 48,
+      "url": "https://northstar.slack.com/about/bgepv7ca",
+      "created_at": "2025-08-09 18:00:13"
+    },
+    {
+      "id": 2934079,
+      "app_id": "IPR79WZHJAYA",
+      "size": 64,
+      "url": "https://silverline.slack.com/home/sqqqsp2i",
+      "created_at": "2025-05-16 07:13:14"
+    },
+    {
+      "id": 2414474,
+      "app_id": "IY77P56P3TBN",
+      "size": 72,
+      "url": "https://apex.slack.com/home/tt1ug7eb",
+      "created_at": "2025-08-25 04:57:54"
+    },
+    {
+      "id": 3245996,
+      "app_id": "ISQSSZL66XAA",
+      "size": 96,
+      "url": "https://lattice.slack.com/status/z12mvgip",
+      "created_at": "2025-09-10 09:07:22"
+    }
+  ]
+}

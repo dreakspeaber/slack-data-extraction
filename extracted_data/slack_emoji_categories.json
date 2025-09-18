@@ -1,0 +1,376 @@
+{
+  "table_name": "slack_emoji_categories",
+  "columns": [
+    "id",
+    "name",
+    "emoji_names",
+    "display_order",
+    "is_active",
+    "created_at",
+    "updated_at"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.410137",
+  "data": [
+    {
+      "id": "IHDD9XQTR0LI",
+      "name": "Granite Service",
+      "emoji_names": "{}",
+      "display_order": 7027906,
+      "is_active": true,
+      "created_at": "2025-03-09 04:07:23",
+      "updated_at": "2025-06-04 14:50:46"
+    },
+    {
+      "id": "ICSYWVPPLKR5",
+      "name": "Nimbus Gateway",
+      "emoji_names": "{}",
+      "display_order": 5160583,
+      "is_active": false,
+      "created_at": "2025-06-26 17:37:15",
+      "updated_at": "2025-09-01 14:36:00"
+    },
+    {
+      "id": "IUE77SK23RK4",
+      "name": "Copper Station",
+      "emoji_names": "{}",
+      "display_order": 1570259,
+      "is_active": false,
+      "created_at": "2025-06-16 05:28:59",
+      "updated_at": "2025-06-17 13:19:31"
+    },
+    {
+      "id": "ID7J1IHEL89Z",
+      "name": "Terra Hub",
+      "emoji_names": "{}",
+      "display_order": 5507693,
+      "is_active": true,
+      "created_at": "2025-05-04 20:02:22",
+      "updated_at": "2025-05-28 03:30:09"
+    },
+    {
+      "id": "IDAK2PLXNYHH",
+      "name": "Quasar Service",
+      "emoji_names": "{}",
+      "display_order": 4374191,
+      "is_active": false,
+      "created_at": "2025-08-13 03:34:37",
+      "updated_at": "2025-08-14 04:24:36"
+    },
+    {
+      "id": "I2F76C7NH681",
+      "name": "Granite Gateway",
+      "emoji_names": "{}",
+      "display_order": 7498785,
+      "is_active": false,
+      "created_at": "2025-04-23 04:58:41",
+      "updated_at": "2025-06-13 15:00:07"
+    },
+    {
+      "id": "IUFJ5ODYT3PT",
+      "name": "Nimbus Center",
+      "emoji_names": "{}",
+      "display_order": 7073778,
+      "is_active": true,
+      "created_at": "2025-09-01 11:17:31",
+      "updated_at": "2025-09-02 12:22:24"
+    },
+    {
+      "id": "I4A84IG4HP02",
+      "name": "Atlas Service",
+      "emoji_names": "{}",
+      "display_order": 721414,
+      "is_active": false,
+      "created_at": "2025-06-29 12:49:06",
+      "updated_at": "2025-07-04 15:27:11"
+    },
+    {
+      "id": "I363EBOGEFJ9",
+      "name": "Copper Cloud",
+      "emoji_names": "{}",
+      "display_order": 1586425,
+      "is_active": false,
+      "created_at": "2025-08-03 06:16:21",
+      "updated_at": "2025-08-07 16:02:40"
+    },
+    {
+      "id": "IUQTZPP0M3OV",
+      "name": "Nimbus Core",
+      "emoji_names": "{}",
+      "display_order": 5906939,
+      "is_active": true,
+      "created_at": "2025-08-08 01:25:53",
+      "updated_at": "2025-08-09 00:34:36"
+    },
+    {
+      "id": "I0AA1B4F2GJY",
+      "name": "Granite Gateway",
+      "emoji_names": "{}",
+      "display_order": 4365069,
+      "is_active": false,
+      "created_at": "2025-03-31 07:48:29",
+      "updated_at": "2025-09-10 22:27:43"
+    },
+    {
+      "id": "IYHHTI9SFO33",
+      "name": "Terra Bridge",
+      "emoji_names": "{}",
+      "display_order": 9739685,
+      "is_active": true,
+      "created_at": "2025-03-24 05:45:05",
+      "updated_at": "2025-03-26 16:06:42"
+    },
+    {
+      "id": "IB3AIMTE3Q4L",
+      "name": "Quasar Service",
+      "emoji_names": "{}",
+      "display_order": 9981513,
+      "is_active": false,
+      "created_at": "2025-04-15 20:43:47",
+      "updated_at": "2025-04-16 15:28:30"
+    },
+    {
+      "id": "I312RKCKRQ06",
+      "name": "Copper Center",
+      "emoji_names": "{}",
+      "display_order": 8494985,
+      "is_active": true,
+      "created_at": "2025-06-24 22:13:21",
+      "updated_at": "2025-06-25 18:38:59"
+    },
+    {
+      "id": "IGTNS2G8OEYR",
+      "name": "Nova Cloud",
+      "emoji_names": "{}",
+      "display_order": 1040084,
+      "is_active": true,
+      "created_at": "2025-01-04 23:34:17",
+      "updated_at": "2025-06-02 21:14:01"
+    },
+    {
+      "id": "I8BA7P38UDR9",
+      "name": "Nimbus Core",
+      "emoji_names": "{}",
+      "display_order": 3512275,
+      "is_active": false,
+      "created_at": "2025-02-09 04:53:54",
+      "updated_at": "2025-03-24 02:09:03"
+    },
+    {
+      "id": "I38ZBI3G61R0",
+      "name": "Bright Console",
+      "emoji_names": "{}",
+      "display_order": 8559551,
+      "is_active": false,
+      "created_at": "2025-07-10 08:53:11",
+      "updated_at": "2025-07-12 12:29:08"
+    },
+    {
+      "id": "IGAR67TWNYSK",
+      "name": "Bright Center",
+      "emoji_names": "{}",
+      "display_order": 3672394,
+      "is_active": false,
+      "created_at": "2025-03-01 17:16:20",
+      "updated_at": "2025-08-20 12:41:19"
+    },
+    {
+      "id": "II1V1GNE0O8T",
+      "name": "Copper Station",
+      "emoji_names": "{}",
+      "display_order": 4843453,
+      "is_active": false,
+      "created_at": "2025-08-28 02:20:11",
+      "updated_at": "2025-08-28 11:58:22"
+    },
+    {
+      "id": "IHGQ1YAFE1IQ",
+      "name": "Nova Bridge",
+      "emoji_names": "{}",
+      "display_order": 2770814,
+      "is_active": true,
+      "created_at": "2025-07-13 23:27:21",
+      "updated_at": "2025-07-18 18:41:27"
+    },
+    {
+      "id": "IFGBHCXP2HBU",
+      "name": "Quasar Service",
+      "emoji_names": "{}",
+      "display_order": 147609,
+      "is_active": false,
+      "created_at": "2025-05-15 21:30:49",
+      "updated_at": "2025-08-07 00:18:38"
+    },
+    {
+      "id": "IZDPWX9UER4J",
+      "name": "Clear Hub",
+      "emoji_names": "{}",
+      "display_order": 3995182,
+      "is_active": true,
+      "created_at": "2025-05-10 23:39:04",
+      "updated_at": "2025-08-27 21:51:54"
+    },
+    {
+      "id": "IGNQYW7JVFDT",
+      "name": "Copper Portal",
+      "emoji_names": "{}",
+      "display_order": 9300487,
+      "is_active": true,
+      "created_at": "2025-02-24 17:45:36",
+      "updated_at": "2025-04-15 03:36:33"
+    },
+    {
+      "id": "IJVMKZU60949",
+      "name": "Vector Deck",
+      "emoji_names": "{}",
+      "display_order": 8123445,
+      "is_active": true,
+      "created_at": "2025-04-17 14:01:25",
+      "updated_at": "2025-05-19 10:05:40"
+    },
+    {
+      "id": "I9AIZHARHRDU",
+      "name": "Bright Bridge",
+      "emoji_names": "{}",
+      "display_order": 351006,
+      "is_active": false,
+      "created_at": "2025-03-22 04:09:14",
+      "updated_at": "2025-04-10 02:36:37"
+    },
+    {
+      "id": "I8QXWC9A63CF",
+      "name": "Atlas Core",
+      "emoji_names": "{}",
+      "display_order": 3432427,
+      "is_active": true,
+      "created_at": "2025-07-23 00:18:37",
+      "updated_at": "2025-07-28 23:08:27"
+    },
+    {
+      "id": "I77OP34AZIZU",
+      "name": "Nova Portal",
+      "emoji_names": "{}",
+      "display_order": 8400464,
+      "is_active": true,
+      "created_at": "2025-03-02 21:33:03",
+      "updated_at": "2025-04-19 13:48:08"
+    },
+    {
+      "id": "I7CSK194ITPI",
+      "name": "Clear Cloud",
+      "emoji_names": "{}",
+      "display_order": 9263565,
+      "is_active": false,
+      "created_at": "2025-03-07 18:46:52",
+      "updated_at": "2025-07-20 18:27:03"
+    },
+    {
+      "id": "IKC12O9UDT1M",
+      "name": "Clear Deck",
+      "emoji_names": "{}",
+      "display_order": 9932386,
+      "is_active": true,
+      "created_at": "2025-07-07 08:11:35",
+      "updated_at": "2025-08-28 23:51:05"
+    },
+    {
+      "id": "IP6D0B0D5N1N",
+      "name": "Clear Station",
+      "emoji_names": "{}",
+      "display_order": 6695769,
+      "is_active": true,
+      "created_at": "2025-07-19 00:48:56",
+      "updated_at": "2025-09-16 01:15:31"
+    },
+    {
+      "id": "IVCIFTREA3UE",
+      "name": "Terra Station",
+      "emoji_names": "{}",
+      "display_order": 8187160,
+      "is_active": false,
+      "created_at": "2025-02-10 15:02:43",
+      "updated_at": "2025-02-12 22:14:45"
+    },
+    {
+      "id": "IE9YAMOVGEVJ",
+      "name": "Cobalt Station",
+      "emoji_names": "{}",
+      "display_order": 795999,
+      "is_active": true,
+      "created_at": "2025-04-23 16:17:50",
+      "updated_at": "2025-04-26 14:59:11"
+    },
+    {
+      "id": "INMKZKW88EG1",
+      "name": "Atlas Hub",
+      "emoji_names": "{}",
+      "display_order": 1774244,
+      "is_active": false,
+      "created_at": "2025-02-13 02:49:47",
+      "updated_at": "2025-05-19 10:45:45"
+    },
+    {
+      "id": "IC1H21QXYHWG",
+      "name": "Copper Service",
+      "emoji_names": "{}",
+      "display_order": 2220450,
+      "is_active": true,
+      "created_at": "2025-04-13 07:24:09",
+      "updated_at": "2025-04-17 01:22:27"
+    },
+    {
+      "id": "IHRFB08CLWL9",
+      "name": "Vector Core",
+      "emoji_names": "{}",
+      "display_order": 9993546,
+      "is_active": false,
+      "created_at": "2025-08-16 06:50:42",
+      "updated_at": "2025-08-17 04:04:20"
+    },
+    {
+      "id": "I9GS7QZ6XXSV",
+      "name": "Granite Console",
+      "emoji_names": "{}",
+      "display_order": 8767103,
+      "is_active": true,
+      "created_at": "2025-04-16 22:56:08",
+      "updated_at": "2025-06-03 22:37:18"
+    },
+    {
+      "id": "IMZV1XJZFH2K",
+      "name": "Atlas Bridge",
+      "emoji_names": "{}",
+      "display_order": 7438848,
+      "is_active": true,
+      "created_at": "2025-03-26 18:33:22",
+      "updated_at": "2025-08-15 23:16:07"
+    },
+    {
+      "id": "I7J2OQJ0CY1O",
+      "name": "Granite Deck",
+      "emoji_names": "{}",
+      "display_order": 4969270,
+      "is_active": false,
+      "created_at": "2025-08-05 21:57:08",
+      "updated_at": "2025-08-08 07:14:58"
+    },
+    {
+      "id": "I2BHWY1IFXJJ",
+      "name": "Copper Console",
+      "emoji_names": "{}",
+      "display_order": 665043,
+      "is_active": true,
+      "created_at": "2025-08-01 04:00:18",
+      "updated_at": "2025-08-02 07:09:18"
+    },
+    {
+      "id": "I3FPX1PHSSM6",
+      "name": "Terra Bridge",
+      "emoji_names": "{}",
+      "display_order": 5014411,
+      "is_active": true,
+      "created_at": "2025-08-09 03:12:36",
+      "updated_at": "2025-08-14 20:03:39"
+    }
+  ]
+}

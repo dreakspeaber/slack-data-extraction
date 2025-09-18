@@ -1,0 +1,417 @@
+{
+  "table_name": "slack_app_configs",
+  "columns": [
+    "id",
+    "app_id",
+    "workflow_auth_strategy",
+    "rich_link_preview_type",
+    "domain_restrictions_emails",
+    "domain_restrictions_urls",
+    "created_at",
+    "updated_at"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.415609",
+  "data": [
+    {
+      "id": 4329239,
+      "app_id": "IU6FUN14JID7",
+      "workflow_auth_strategy": "summit.slack.com",
+      "rich_link_preview_type": "silverline.slack.com",
+      "domain_restrictions_emails": "james.lee@proton.me, harper.miller@yahoo.com",
+      "domain_restrictions_urls": "Labs Studio workspace",
+      "created_at": "2025-08-10 06:03:58",
+      "updated_at": "2025-08-11 14:43:04"
+    },
+    {
+      "id": 6728796,
+      "app_id": "IPKQ6WUL6Q59",
+      "workflow_auth_strategy": "Beacon Digital workspace",
+      "rich_link_preview_type": "Nimbus Hub",
+      "domain_restrictions_emails": "ethan.thompson@proton.me, mason.thompson@outlook.com",
+      "domain_restrictions_urls": "Nova Service",
+      "created_at": "2025-04-08 03:48:27",
+      "updated_at": "2025-04-11 22:11:10"
+    },
+    {
+      "id": 9696726,
+      "app_id": "ISH1HRVY1P0Z",
+      "workflow_auth_strategy": "internal context",
+      "rich_link_preview_type": "Harbor Digital workspace",
+      "domain_restrictions_emails": "noah.lopez@icloud.com, isabella.williams@icloud.com",
+      "domain_restrictions_urls": "partner context",
+      "created_at": "2025-08-14 18:52:59",
+      "updated_at": "2025-09-16 03:21:52"
+    },
+    {
+      "id": 9752313,
+      "app_id": "IAYKP0V0TPWF",
+      "workflow_auth_strategy": "internal context",
+      "rich_link_preview_type": "silverline.slack.com",
+      "domain_restrictions_emails": "james.lee@proton.me, amelia.hernandez@gmail.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-01-12 13:22:07",
+      "updated_at": "2025-01-18 14:33:22"
+    },
+    {
+      "id": 466188,
+      "app_id": "ISI8RR4YS3OM",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "granite.slack.com",
+      "domain_restrictions_emails": "amelia.hernandez@gmail.com, benjamin.anderson@yahoo.com, scarlett.davis@yahoo.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-01-25 12:47:31",
+      "updated_at": "2025-05-30 23:46:30"
+    },
+    {
+      "id": 6013832,
+      "app_id": "IHS59CCWWALZ",
+      "workflow_auth_strategy": "Harbor Digital workspace",
+      "rich_link_preview_type": "external context",
+      "domain_restrictions_emails": "ethan.thompson@proton.me, mia.miller@proton.me",
+      "domain_restrictions_urls": "lattice.slack.com",
+      "created_at": "2025-02-18 17:28:31",
+      "updated_at": "2025-09-04 21:41:27"
+    },
+    {
+      "id": 7628224,
+      "app_id": "IATLYSLPQ6EJ",
+      "workflow_auth_strategy": "Copper Hub",
+      "rich_link_preview_type": "Bright Hub",
+      "domain_restrictions_emails": "isabella.williams@icloud.com, noah.miller@gmail.com, benjamin.thomas@icloud.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-06-06 01:13:33",
+      "updated_at": "2025-08-27 07:37:43"
+    },
+    {
+      "id": 4647050,
+      "app_id": "IRBXIGI3OBRR",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "external context",
+      "domain_restrictions_emails": "jackson.brown@gmail.com, noah.moore@gmail.com",
+      "domain_restrictions_urls": "Nova Works workspace",
+      "created_at": "2025-05-19 16:24:17",
+      "updated_at": "2025-08-02 09:23:25"
+    },
+    {
+      "id": 6022265,
+      "app_id": "IW08KVXEVXBI",
+      "workflow_auth_strategy": "summit.slack.com",
+      "rich_link_preview_type": "Terra Hub",
+      "domain_restrictions_emails": "james.lee@proton.me, harper.jones@gmail.com, michael.davis@icloud.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-07-09 12:55:58",
+      "updated_at": "2025-07-14 16:58:40"
+    },
+    {
+      "id": 3340892,
+      "app_id": "IR8T8HM605D6",
+      "workflow_auth_strategy": "internal context",
+      "rich_link_preview_type": "granite.slack.com",
+      "domain_restrictions_emails": "mia.miller@proton.me, james.brown@icloud.com, ethan.miller@outlook.com",
+      "domain_restrictions_urls": "Cobalt Center",
+      "created_at": "2025-07-11 23:26:45",
+      "updated_at": "2025-09-06 18:56:20"
+    },
+    {
+      "id": 603798,
+      "app_id": "IY2LXIGSHMIC",
+      "workflow_auth_strategy": "summit.slack.com",
+      "rich_link_preview_type": "Harbor Digital workspace",
+      "domain_restrictions_emails": "emily.brown@yahoo.com, elijah.clark@yahoo.com",
+      "domain_restrictions_urls": "Clear Bridge",
+      "created_at": "2025-02-13 13:35:14",
+      "updated_at": "2025-04-10 08:29:47"
+    },
+    {
+      "id": 6970369,
+      "app_id": "IVCON41Y0RIG",
+      "workflow_auth_strategy": "Lattice Studio workspace",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "james.lee@proton.me, benjamin.thomas@icloud.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-07-30 12:47:16",
+      "updated_at": "2025-08-02 20:03:52"
+    },
+    {
+      "id": 2846735,
+      "app_id": "INP3I8LE64NX",
+      "workflow_auth_strategy": "internal context",
+      "rich_link_preview_type": "silverline.slack.com",
+      "domain_restrictions_emails": "james.jackson@proton.me, lucas.white@yahoo.com, noah.clark@outlook.com",
+      "domain_restrictions_urls": "internal context",
+      "created_at": "2025-07-28 09:15:50",
+      "updated_at": "2025-07-29 04:00:48"
+    },
+    {
+      "id": 1883063,
+      "app_id": "ITHASGOLZ0SA",
+      "workflow_auth_strategy": "Nimbus Core",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "scarlett.davis@yahoo.com, michael.davis@icloud.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-02-09 13:23:33",
+      "updated_at": "2025-07-10 09:45:06"
+    },
+    {
+      "id": 8700855,
+      "app_id": "I5ZC547WC1OG",
+      "workflow_auth_strategy": "Harbor Digital workspace",
+      "rich_link_preview_type": "Lattice Studio workspace",
+      "domain_restrictions_emails": "harper.jones@gmail.com, isabella.gonzalez@yahoo.com, elijah.rodriguez@proton.me",
+      "domain_restrictions_urls": "granite.slack.com",
+      "created_at": "2025-04-07 03:15:44",
+      "updated_at": "2025-04-12 20:34:12"
+    },
+    {
+      "id": 8948208,
+      "app_id": "ITD20SWL81GO",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "avery.williams@proton.me, ethan.miller@outlook.com, mason.lee@proton.me",
+      "domain_restrictions_urls": "internal context",
+      "created_at": "2025-08-18 21:01:13",
+      "updated_at": "2025-09-10 17:45:38"
+    },
+    {
+      "id": 8813579,
+      "app_id": "IPOS0F59MOL7",
+      "workflow_auth_strategy": "partner context",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "harper.jones@gmail.com, aria.martin@gmail.com, emma.lewis@icloud.com",
+      "domain_restrictions_urls": "internal context",
+      "created_at": "2025-04-26 22:16:24",
+      "updated_at": "2025-05-27 18:12:26"
+    },
+    {
+      "id": 4861152,
+      "app_id": "I78UHJ5LMPTZ",
+      "workflow_auth_strategy": "internal context",
+      "rich_link_preview_type": "Labs Studio workspace",
+      "domain_restrictions_emails": "lucas.williams@gmail.com, sophia.gonzalez@gmail.com, liam.white@icloud.com",
+      "domain_restrictions_urls": "harbor.slack.com",
+      "created_at": "2025-08-05 21:00:07",
+      "updated_at": "2025-08-11 03:30:13"
+    },
+    {
+      "id": 4491729,
+      "app_id": "IX46UY7I7RWK",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "partner context",
+      "domain_restrictions_emails": "ethan.thompson@proton.me, noah.moore@gmail.com",
+      "domain_restrictions_urls": "harbor.slack.com",
+      "created_at": "2025-08-05 17:12:21",
+      "updated_at": "2025-08-06 14:54:01"
+    },
+    {
+      "id": 3628786,
+      "app_id": "I3XZPYKCE7Q1",
+      "workflow_auth_strategy": "Terra Service",
+      "rich_link_preview_type": "internal context",
+      "domain_restrictions_emails": "liam.rodriguez@yahoo.com, sophia.johnson@proton.me, noah.lopez@icloud.com",
+      "domain_restrictions_urls": "internal context",
+      "created_at": "2025-08-28 04:27:31",
+      "updated_at": "2025-09-03 03:57:19"
+    },
+    {
+      "id": 9853443,
+      "app_id": "I5F3ZHQ7X3FD",
+      "workflow_auth_strategy": "partner context",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "james.martin@gmail.com, noah.clark@outlook.com",
+      "domain_restrictions_urls": "beacon.slack.com",
+      "created_at": "2025-04-02 21:21:20",
+      "updated_at": "2025-06-08 16:01:55"
+    },
+    {
+      "id": 6103807,
+      "app_id": "IO23U0N858NR",
+      "workflow_auth_strategy": "Beacon Digital workspace",
+      "rich_link_preview_type": "Lattice Studio workspace",
+      "domain_restrictions_emails": "michael.lee@outlook.com, elijah.martinez@gmail.com",
+      "domain_restrictions_urls": "Lattice Studio workspace",
+      "created_at": "2025-08-26 14:55:11",
+      "updated_at": "2025-08-30 21:59:25"
+    },
+    {
+      "id": 7161378,
+      "app_id": "IK51PWMU18AX",
+      "workflow_auth_strategy": "Clear Center",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "lucas.white@gmail.com, james.garcia@outlook.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-06-13 07:10:45",
+      "updated_at": "2025-06-14 06:20:18"
+    },
+    {
+      "id": 2136618,
+      "app_id": "IPIYLGS22SK7",
+      "workflow_auth_strategy": "Labs Studio workspace",
+      "rich_link_preview_type": "external context",
+      "domain_restrictions_emails": "elijah.martinez@gmail.com, jackson.martinez@yahoo.com, scarlett.moore@outlook.com",
+      "domain_restrictions_urls": "lattice.slack.com",
+      "created_at": "2025-07-12 21:13:17",
+      "updated_at": "2025-07-16 21:11:04"
+    },
+    {
+      "id": 7469740,
+      "app_id": "I81SRR876RD6",
+      "workflow_auth_strategy": "beacon.slack.com",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "isabella.williams@icloud.com, mia.jones@outlook.com, amelia.thomas@icloud.com",
+      "domain_restrictions_urls": "Northstar Analytics workspace",
+      "created_at": "2025-01-15 02:52:08",
+      "updated_at": "2025-02-02 14:04:43"
+    },
+    {
+      "id": 5668769,
+      "app_id": "IN7PGCEH4PLN",
+      "workflow_auth_strategy": "Cobalt Deck",
+      "rich_link_preview_type": "Nova Station",
+      "domain_restrictions_emails": "sophia.martinez@outlook.com, aria.martin@gmail.com",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-09-13 07:19:30",
+      "updated_at": "2025-09-14 06:03:21"
+    },
+    {
+      "id": 4705630,
+      "app_id": "I55OATOWHDUP",
+      "workflow_auth_strategy": "partner context",
+      "rich_link_preview_type": "Quasar Gateway",
+      "domain_restrictions_emails": "ethan.thompson@proton.me, michael.rodriguez@icloud.com",
+      "domain_restrictions_urls": "external context",
+      "created_at": "2025-03-07 21:36:56",
+      "updated_at": "2025-06-26 08:21:49"
+    },
+    {
+      "id": 8865939,
+      "app_id": "IO48SBWCPPRB",
+      "workflow_auth_strategy": "silverline.slack.com",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "michael.lee@outlook.com, abigail.anderson@outlook.com, scarlett.moore@outlook.com",
+      "domain_restrictions_urls": "Labs Studio workspace",
+      "created_at": "2025-02-08 17:10:18",
+      "updated_at": "2025-04-30 09:28:14"
+    },
+    {
+      "id": 7667768,
+      "app_id": "IYCLXRY1X9CJ",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "internal context",
+      "domain_restrictions_emails": "scarlett.clark@gmail.com, mia.jones@outlook.com, scarlett.moore@outlook.com",
+      "domain_restrictions_urls": "Clear Service",
+      "created_at": "2025-02-26 15:30:44",
+      "updated_at": "2025-06-07 13:41:20"
+    },
+    {
+      "id": 4220502,
+      "app_id": "IVJ6HSZ6OHNS",
+      "workflow_auth_strategy": "Harbor Digital workspace",
+      "rich_link_preview_type": "Nimbus Center",
+      "domain_restrictions_emails": "isabella.gonzalez@yahoo.com, mason.thompson@outlook.com",
+      "domain_restrictions_urls": "Clear Portal",
+      "created_at": "2025-04-27 17:21:20",
+      "updated_at": "2025-06-30 14:33:27"
+    },
+    {
+      "id": 8778916,
+      "app_id": "I91UMX4B49YQ",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "aria.martin@gmail.com, emily.wilson@gmail.com, mason.harris@outlook.com",
+      "domain_restrictions_urls": "summit.slack.com",
+      "created_at": "2025-04-08 16:34:28",
+      "updated_at": "2025-06-03 08:28:24"
+    },
+    {
+      "id": 74166,
+      "app_id": "IICUI7F1VXCE",
+      "workflow_auth_strategy": "Lattice Studio workspace",
+      "rich_link_preview_type": "Forge Digital workspace",
+      "domain_restrictions_emails": "elijah.rodriguez@proton.me, emma.hernandez@proton.me",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-07-15 07:04:25",
+      "updated_at": "2025-07-17 19:13:48"
+    },
+    {
+      "id": 6777975,
+      "app_id": "I8ESKFNKJT7A",
+      "workflow_auth_strategy": "internal context",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "avery.rodriguez@outlook.com, mason.thompson@outlook.com, mia.jones@outlook.com",
+      "domain_restrictions_urls": "Vector Hub",
+      "created_at": "2025-05-29 17:04:24",
+      "updated_at": "2025-05-30 19:59:29"
+    },
+    {
+      "id": 2217554,
+      "app_id": "ILXPDR6D2SUV",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "Bright Station",
+      "domain_restrictions_emails": "sophia.rodriguez@icloud.com, isabella.williams@icloud.com",
+      "domain_restrictions_urls": "Nova Works workspace",
+      "created_at": "2025-08-20 18:46:42",
+      "updated_at": "2025-08-23 06:57:12"
+    },
+    {
+      "id": 9483962,
+      "app_id": "IIG1QV1IMWA4",
+      "workflow_auth_strategy": "Nova Service",
+      "rich_link_preview_type": "Harbor Digital workspace",
+      "domain_restrictions_emails": "ava.lewis@yahoo.com, mason.lee@proton.me, liam.johnson@outlook.com",
+      "domain_restrictions_urls": "Cobalt Station",
+      "created_at": "2025-07-31 22:06:39",
+      "updated_at": "2025-08-02 04:39:43"
+    },
+    {
+      "id": 4698005,
+      "app_id": "I6639FUAO4GK",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "internal context",
+      "domain_restrictions_emails": "abigail.anderson@outlook.com, mia.thomas@gmail.com, scarlett.davis@yahoo.com",
+      "domain_restrictions_urls": "lattice.slack.com",
+      "created_at": "2025-05-19 05:38:20",
+      "updated_at": "2025-05-22 19:10:46"
+    },
+    {
+      "id": 5831649,
+      "app_id": "IG4HQKZ4TGGM",
+      "workflow_auth_strategy": "external context",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "elijah.rodriguez@proton.me, abigail.anderson@outlook.com, emily.wilson@gmail.com",
+      "domain_restrictions_urls": "external context",
+      "created_at": "2025-05-21 14:17:42",
+      "updated_at": "2025-05-25 09:09:03"
+    },
+    {
+      "id": 5254032,
+      "app_id": "IPR79WZHJAYA",
+      "workflow_auth_strategy": "ops-policy",
+      "rich_link_preview_type": "external context",
+      "domain_restrictions_emails": "james.brown@icloud.com, abigail.jones@yahoo.com, lucas.white@gmail.com",
+      "domain_restrictions_urls": "Copper Hub",
+      "created_at": "2025-06-12 21:39:18",
+      "updated_at": "2025-06-14 19:09:01"
+    },
+    {
+      "id": 689769,
+      "app_id": "IY77P56P3TBN",
+      "workflow_auth_strategy": "Clear Console",
+      "rich_link_preview_type": "Vector Gateway",
+      "domain_restrictions_emails": "benjamin.gonzalez@gmail.com, noah.harris@icloud.com",
+      "domain_restrictions_urls": "summit.slack.com",
+      "created_at": "2025-04-05 11:31:38",
+      "updated_at": "2025-06-28 15:03:02"
+    },
+    {
+      "id": 2448121,
+      "app_id": "ISQSSZL66XAA",
+      "workflow_auth_strategy": "Terra Service",
+      "rich_link_preview_type": "ops-policy",
+      "domain_restrictions_emails": "james.jackson@proton.me, amelia.thomas@icloud.com, ava.hernandez@proton.me",
+      "domain_restrictions_urls": "ops-policy",
+      "created_at": "2025-05-09 03:31:39",
+      "updated_at": "2025-07-22 18:15:42"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "table_name": "slack_emoji_aliases",
+  "columns": [
+    "id",
+    "alias_name",
+    "original_name",
+    "team_id",
+    "enterprise_id",
+    "created_by",
+    "created_at",
+    "updated_at"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.406564",
+  "data": [
+    {
+      "id": "I7BNJRLD247O",
+      "alias_name": "Forge Digital workspace",
+      "original_name": "Forge Digital workspace",
+      "team_id": "TIB0O6I82ELH",
+      "enterprise_id": "ET5Z7SKT1AZ6",
+      "created_by": "UNEFADXMANN2",
+      "created_at": "2025-03-06 05:33:58",
+      "updated_at": "2025-08-22 00:44:40"
+    },
+    {
+      "id": "IQWQK26ZPVVF",
+      "alias_name": "Northstar Analytics workspace",
+      "original_name": "partner context",
+      "team_id": "T2NQLL9AYH76",
+      "enterprise_id": "ECOWPIVNC412",
+      "created_by": "UDTPG5RQHZY1",
+      "created_at": "2025-08-04 08:27:29",
+      "updated_at": "2025-08-09 22:50:47"
+    },
+    {
+      "id": "IAZKTOJRCMRB",
+      "alias_name": "internal context",
+      "original_name": "granite.slack.com",
+      "team_id": "T6ERLQKUMWKE",
+      "enterprise_id": "EF7ZT2CC0VJX",
+      "created_by": "U46ZNRRHDCQ2",
+      "created_at": "2025-08-09 06:05:11",
+      "updated_at": "2025-08-09 06:39:20"
+    },
+    {
+      "id": "IBMLR1FGWPKU",
+      "alias_name": "ops-policy",
+      "original_name": "Clear Center",
+      "team_id": "T52LLQQ8LS1W",
+      "enterprise_id": "E1MUE22O9A1C",
+      "created_by": "U96HAD6D0RD0",
+      "created_at": "2025-08-14 11:55:04",
+      "updated_at": "2025-08-28 05:59:02"
+    },
+    {
+      "id": "II2STK6RVQQL",
+      "alias_name": "internal context",
+      "original_name": "Lattice Systems workspace",
+      "team_id": "TBTRFBTZ2LZ8",
+      "enterprise_id": "ELG7DOM9632U",
+      "created_by": "UJ0Z8Y27KTB4",
+      "created_at": "2025-04-21 16:18:57",
+      "updated_at": "2025-05-16 17:32:49"
+    },
+    {
+      "id": "IW2ZU3PAFXS6",
+      "alias_name": "ops-policy",
+      "original_name": "harbor.slack.com",
+      "team_id": "TV5DGENSSMOD",
+      "enterprise_id": "ETBA9UD0UAS8",
+      "created_by": "UKSG0H4SUGVT",
+      "created_at": "2025-05-03 09:28:30",
+      "updated_at": "2025-05-05 21:29:23"
+    },
+    {
+      "id": "IP1OXU5CZYO0",
+      "alias_name": "Cobalt Bridge",
+      "original_name": "external context",
+      "team_id": "TKNV4036TANB",
+      "enterprise_id": "EZQHX6E0BHDS",
+      "created_by": "UHVY6B0O8N3L",
+      "created_at": "2025-06-13 06:18:21",
+      "updated_at": "2025-09-04 06:25:38"
+    },
+    {
+      "id": "I5MFBNCA1FTM",
+      "alias_name": "ops-policy",
+      "original_name": "ops-policy",
+      "team_id": "TC4ZTUCR46XU",
+      "enterprise_id": "EO8RH1Q5KE3O",
+      "created_by": "U446KPSWBJG1",
+      "created_at": "2025-07-19 16:20:25",
+      "updated_at": "2025-07-24 07:07:27"
+    },
+    {
+      "id": "INW8FYU6PPJS",
+      "alias_name": "Nova Works workspace",
+      "original_name": "Clear Cloud",
+      "team_id": "TA7R2CXHNX8E",
+      "enterprise_id": "ET5Z7SKT1AZ6",
+      "created_by": "UBBOY5IOKGAC",
+      "created_at": "2025-08-31 10:25:36",
+      "updated_at": "2025-09-03 21:37:55"
+    },
+    {
+      "id": "IY2XFEX2BUV8",
+      "alias_name": "Vector Portal",
+      "original_name": "ops-policy",
+      "team_id": "T1S4ZXLEQTG5",
+      "enterprise_id": "ECOWPIVNC412",
+      "created_by": "U3RJW9WTCWER",
+      "created_at": "2025-01-24 06:39:17",
+      "updated_at": "2025-04-03 01:45:02"
+    },
+    {
+      "id": "IAMYSNI1H6AW",
+      "alias_name": "granite.slack.com",
+      "original_name": "Forge Digital workspace",
+      "team_id": "T99EUNAS13JM",
+      "enterprise_id": "EF7ZT2CC0VJX",
+      "created_by": "UYJ6XCQP18EM",
+      "created_at": "2025-01-14 14:41:48",
+      "updated_at": "2025-03-29 20:32:08"
+    },
+    {
+      "id": "IQQZ7PAZED8G",
+      "alias_name": "Clear Portal",
+      "original_name": "internal context",
+      "team_id": "TX0XZAKVJHBD",
+      "enterprise_id": "E1MUE22O9A1C",
+      "created_by": "UVW6PA5FPTZJ",
+      "created_at": "2025-08-25 16:20:46",
+      "updated_at": "2025-08-26 08:39:17"
+    },
+    {
+      "id": "I8PB8HVNRP67",
+      "alias_name": "ops-policy",
+      "original_name": "summit.slack.com",
+      "team_id": "TQ8SM2BQZM40",
+      "enterprise_id": "ELG7DOM9632U",
+      "created_by": "UBF1G18UVUEE",
+      "created_at": "2025-06-22 12:49:57",
+      "updated_at": "2025-08-18 23:26:02"
+    },
+    {
+      "id": "IGAA93IF62GN",
+      "alias_name": "lattice.slack.com",
+      "original_name": "Lattice Systems workspace",
+      "team_id": "T3Q6XFN0LVOB",
+      "enterprise_id": "ETBA9UD0UAS8",
+      "created_by": "URF491VANEAG",
+      "created_at": "2025-01-18 02:59:28",
+      "updated_at": "2025-06-25 06:13:28"
+    },
+    {
+      "id": "IL88JISP84DK",
+      "alias_name": "internal context",
+      "original_name": "Forge Digital workspace",
+      "team_id": "TK3NJYGM9UVY",
+      "enterprise_id": "EZQHX6E0BHDS",
+      "created_by": "U8CG31DDBIDC",
+      "created_at": "2025-03-29 12:35:01",
+      "updated_at": "2025-08-26 16:11:46"
+    },
+    {
+      "id": "IW7BN96WUC31",
+      "alias_name": "Northstar Analytics workspace",
+      "original_name": "internal context",
+      "team_id": "TJH6S774M3OD",
+      "enterprise_id": "EO8RH1Q5KE3O",
+      "created_by": "UEXOV76IOQFN",
+      "created_at": "2025-03-05 10:18:46",
+      "updated_at": "2025-08-22 18:05:05"
+    },
+    {
+      "id": "IPMBYHFC6VWL",
+      "alias_name": "Northstar Analytics workspace",
+      "original_name": "external context",
+      "team_id": "TCK2LK5QR4WF",
+      "enterprise_id": "ET5Z7SKT1AZ6",
+      "created_by": "UAHSKU4V93HQ",
+      "created_at": "2025-01-30 05:23:42",
+      "updated_at": "2025-06-19 08:14:30"
+    },
+    {
+      "id": "IH87BLMWPN90",
+      "alias_name": "partner context",
+      "original_name": "Bright Bridge",
+      "team_id": "T5KKMY04A79L",
+      "enterprise_id": "ECOWPIVNC412",
+      "created_by": "U64QH5DFMPDS",
+      "created_at": "2025-06-18 07:52:31",
+      "updated_at": "2025-07-02 12:04:03"
+    },
+    {
+      "id": "IP474HRZ18HC",
+      "alias_name": "internal context",
+      "original_name": "partner context",
+      "team_id": "TM3Q1A1NCVCO",
+      "enterprise_id": "EF7ZT2CC0VJX",
+      "created_by": "U8WUO8WUNDB0",
+      "created_at": "2025-06-30 18:58:07",
+      "updated_at": "2025-09-16 21:29:03"
+    },
+    {
+      "id": "I396MPWH9O15",
+      "alias_name": "Nova Works workspace",
+      "original_name": "Beacon Digital workspace",
+      "team_id": "TWU35DSUTUPD",
+      "enterprise_id": "E1MUE22O9A1C",
+      "created_by": "UQ9C5B0E1E0O",
+      "created_at": "2025-02-02 20:48:38",
+      "updated_at": "2025-09-10 18:42:02"
+    },
+    {
+      "id": "ICMRZZLCUJVU",
+      "alias_name": "Forge Digital workspace",
+      "original_name": "Beacon Digital workspace",
+      "team_id": "T360YH2FO5YD",
+      "enterprise_id": "ELG7DOM9632U",
+      "created_by": "USUP2N8RB0MS",
+      "created_at": "2025-01-10 00:46:13",
+      "updated_at": "2025-03-24 16:08:47"
+    },
+    {
+      "id": "ISYUDWDRGNFB",
+      "alias_name": "Bright Portal",
+      "original_name": "northstar.slack.com",
+      "team_id": "TR2FRC09WPK6",
+      "enterprise_id": "ETBA9UD0UAS8",
+      "created_by": "U30BLANGISFK",
+      "created_at": "2025-02-27 17:23:28",
+      "updated_at": "2025-02-28 06:54:53"
+    },
+    {
+      "id": "IJAKGCIY6EAR",
+      "alias_name": "ops-policy",
+      "original_name": "beacon.slack.com",
+      "team_id": "T0Z4T7RJTJJ8",
+      "enterprise_id": "EZQHX6E0BHDS",
+      "created_by": "URGUSL5JHH88",
+      "created_at": "2025-06-17 03:14:07",
+      "updated_at": "2025-06-22 07:20:49"
+    },
+    {
+      "id": "IET1G3OO6Z3Q",
+      "alias_name": "ops-policy",
+      "original_name": "lattice.slack.com",
+      "team_id": "TD9VCRGH4SSZ",
+      "enterprise_id": "EO8RH1Q5KE3O",
+      "created_by": "UUGE8OWIGWPD",
+      "created_at": "2025-07-22 02:56:11",
+      "updated_at": "2025-07-27 08:34:57"
+    },
+    {
+      "id": "IPA20G8JF8IK",
+      "alias_name": "ops-policy",
+      "original_name": "Forge Digital workspace",
+      "team_id": "TIB0O6I82ELH",
+      "enterprise_id": "ET5Z7SKT1AZ6",
+      "created_by": "UPHXD9YQMOZ9",
+      "created_at": "2025-06-04 02:55:55",
+      "updated_at": "2025-06-08 23:16:47"
+    },
+    {
+      "id": "IM41JU05MPVG",
+      "alias_name": "partner context",
+      "original_name": "beacon.slack.com",
+      "team_id": "T2NQLL9AYH76",
+      "enterprise_id": "ECOWPIVNC412",
+      "created_by": "UWOEG6NTASZI",
+      "created_at": "2025-05-01 05:55:25",
+      "updated_at": "2025-05-05 08:28:22"
+    },
+    {
+      "id": "IVH4MYVQ2W5T",
+      "alias_name": "internal context",
+      "original_name": "Atlas Gateway",
+      "team_id": "T6ERLQKUMWKE",
+      "enterprise_id": "EF7ZT2CC0VJX",
+      "created_by": "UDDELCSOM9GN",
+      "created_at": "2025-03-09 02:17:52",
+      "updated_at": "2025-07-30 09:56:06"
+    },
+    {
+      "id": "IQ4IYQEQXKX0",
+      "alias_name": "beacon.slack.com",
+      "original_name": "external context",
+      "team_id": "T52LLQQ8LS1W",
+      "enterprise_id": "E1MUE22O9A1C",
+      "created_by": "UY9NBI0HQ00C",
+      "created_at": "2025-01-04 06:07:54",
+      "updated_at": "2025-03-02 17:24:39"
+    },
+    {
+      "id": "IUW1S1KG8NR3",
+      "alias_name": "ops-policy",
+      "original_name": "Granite Station",
+      "team_id": "TBTRFBTZ2LZ8",
+      "enterprise_id": "ELG7DOM9632U",
+      "created_by": "UXN5NTFQGCND",
+      "created_at": "2025-06-11 12:40:37",
+      "updated_at": "2025-06-13 22:34:09"
+    },
+    {
+      "id": "IQDQ8N7EL6D0",
+      "alias_name": "ops-policy",
+      "original_name": "beacon.slack.com",
+      "team_id": "TV5DGENSSMOD",
+      "enterprise_id": "ETBA9UD0UAS8",
+      "created_by": "U76K6DO3R52G",
+      "created_at": "2025-07-29 19:44:04",
+      "updated_at": "2025-08-04 00:28:40"
+    },
+    {
+      "id": "I02Q2Q3F6E7J",
+      "alias_name": "beacon.slack.com",
+      "original_name": "external context",
+      "team_id": "TKNV4036TANB",
+      "enterprise_id": "EZQHX6E0BHDS",
+      "created_by": "UJI83MACL5DP",
+      "created_at": "2025-07-30 17:30:36",
+      "updated_at": "2025-07-31 14:57:01"
+    },
+    {
+      "id": "I09XGX7LB8L8",
+      "alias_name": "Copper Bridge",
+      "original_name": "northstar.slack.com",
+      "team_id": "TC4ZTUCR46XU",
+      "enterprise_id": "EO8RH1Q5KE3O",
+      "created_by": "ULT7FQKDW1E0",
+      "created_at": "2025-04-24 08:27:13",
+      "updated_at": "2025-04-26 12:50:53"
+    },
+    {
+      "id": "IS6M8UGL0LBL",
+      "alias_name": "Nova Works workspace",
+      "original_name": "Labs Studio workspace",
+      "team_id": "TA7R2CXHNX8E",
+      "enterprise_id": "ET5Z7SKT1AZ6",
+      "created_by": "UDHYYZNY3SIW",
+      "created_at": "2025-04-11 16:53:27",
+      "updated_at": "2025-06-25 11:18:23"
+    },
+    {
+      "id": "IJN3LQ1SPQJG",
+      "alias_name": "silverline.slack.com",
+      "original_name": "Northstar Analytics workspace",
+      "team_id": "T1S4ZXLEQTG5",
+      "enterprise_id": "ECOWPIVNC412",
+      "created_by": "U28SCW0DGMNL",
+      "created_at": "2025-03-05 23:33:19",
+      "updated_at": "2025-05-28 10:36:44"
+    },
+    {
+      "id": "I3KBHHBSPMZ4",
+      "alias_name": "ops-policy",
+      "original_name": "Lattice Studio workspace",
+      "team_id": "T99EUNAS13JM",
+      "enterprise_id": "EF7ZT2CC0VJX",
+      "created_by": "USGCQSX5G4R0",
+      "created_at": "2025-02-15 10:53:53",
+      "updated_at": "2025-08-07 20:08:40"
+    },
+    {
+      "id": "IL18KKOZZYUN",
+      "alias_name": "summit.slack.com",
+      "original_name": "summit.slack.com",
+      "team_id": "TX0XZAKVJHBD",
+      "enterprise_id": "E1MUE22O9A1C",
+      "created_by": "UQUZKV758OZD",
+      "created_at": "2025-09-07 14:06:29",
+      "updated_at": "2025-09-10 19:53:55"
+    },
+    {
+      "id": "IRBNE8GFFJEY",
+      "alias_name": "partner context",
+      "original_name": "partner context",
+      "team_id": "TQ8SM2BQZM40",
+      "enterprise_id": "ELG7DOM9632U",
+      "created_by": "UMTQ1QF32LS4",
+      "created_at": "2025-07-27 16:37:25",
+      "updated_at": "2025-07-30 15:37:07"
+    },
+    {
+      "id": "IY7EJLNT2VRQ",
+      "alias_name": "ops-policy",
+      "original_name": "beacon.slack.com",
+      "team_id": "T3Q6XFN0LVOB",
+      "enterprise_id": "ETBA9UD0UAS8",
+      "created_by": "U0AS0X7I52N0",
+      "created_at": "2025-04-01 19:07:01",
+      "updated_at": "2025-07-21 03:23:40"
+    },
+    {
+      "id": "I65SSM2TZPA1",
+      "alias_name": "ops-policy",
+      "original_name": "Beacon Digital workspace",
+      "team_id": "TK3NJYGM9UVY",
+      "enterprise_id": "EZQHX6E0BHDS",
+      "created_by": "UZ3YU6VRHROQ",
+      "created_at": "2025-02-01 16:00:38",
+      "updated_at": "2025-06-12 16:13:31"
+    },
+    {
+      "id": "IO4JOXDYJIZS",
+      "alias_name": "ops-policy",
+      "original_name": "external context",
+      "team_id": "TJH6S774M3OD",
+      "enterprise_id": "EO8RH1Q5KE3O",
+      "created_by": "U8PNSTTTKAGQ",
+      "created_at": "2025-06-19 15:09:36",
+      "updated_at": "2025-06-25 01:25:51"
+    }
+  ]
+}

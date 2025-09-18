@@ -1,0 +1,417 @@
+{
+  "table_name": "slack_app_scopes",
+  "columns": [
+    "id",
+    "app_id",
+    "name",
+    "description",
+    "is_sensitive",
+    "token_type",
+    "created_at",
+    "updated_at"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.413907",
+  "data": [
+    {
+      "id": 549325,
+      "app_id": "IU6FUN14JID7",
+      "name": "Drift Flow 7",
+      "description": "Harbor Digital uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "bot",
+      "created_at": "2025-09-01 19:08:23",
+      "updated_at": "2025-09-06 05:11:31"
+    },
+    {
+      "id": 7307709,
+      "app_id": "IPKQ6WUL6Q59",
+      "name": "Copper Hub",
+      "description": "Harbor Digital uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "user",
+      "created_at": "2025-01-21 05:23:17",
+      "updated_at": "2025-03-29 07:20:53"
+    },
+    {
+      "id": 5074785,
+      "app_id": "ISH1HRVY1P0Z",
+      "name": "Arcadia Signal",
+      "description": "Beacon Digital uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "workspace",
+      "created_at": "2025-01-20 20:12:24",
+      "updated_at": "2025-01-23 07:27:35"
+    },
+    {
+      "id": 4569209,
+      "app_id": "IAYKP0V0TPWF",
+      "name": "Nova Pilot 8",
+      "description": "Lattice Studio uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "app",
+      "created_at": "2025-02-27 04:01:37",
+      "updated_at": "2025-03-04 22:44:51"
+    },
+    {
+      "id": 3698832,
+      "app_id": "ISI8RR4YS3OM",
+      "name": "Atlas Vault",
+      "description": "Northstar Analytics uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "installation",
+      "created_at": "2025-03-13 02:55:33",
+      "updated_at": "2025-07-25 18:53:56"
+    },
+    {
+      "id": 7817479,
+      "app_id": "IHS59CCWWALZ",
+      "name": "Sierra Desk 2",
+      "description": "Forge Digital uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "refresh",
+      "created_at": "2025-04-10 02:52:09",
+      "updated_at": "2025-06-29 21:57:15"
+    },
+    {
+      "id": 3980410,
+      "app_id": "IATLYSLPQ6EJ",
+      "name": "Nova Pilot 8",
+      "description": "Northstar Analytics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "bot",
+      "created_at": "2025-02-11 12:03:55",
+      "updated_at": "2025-02-14 04:38:48"
+    },
+    {
+      "id": 1082526,
+      "app_id": "IRBXIGI3OBRR",
+      "name": "Vector Forge",
+      "description": "Northstar Analytics uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "user",
+      "created_at": "2025-04-10 06:58:09",
+      "updated_at": "2025-06-09 15:16:16"
+    },
+    {
+      "id": 6546604,
+      "app_id": "IW08KVXEVXBI",
+      "name": "Vector Forge",
+      "description": "Labs Studio uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "workspace",
+      "created_at": "2025-07-14 16:14:12",
+      "updated_at": "2025-07-19 23:08:58"
+    },
+    {
+      "id": 9856501,
+      "app_id": "IR8T8HM605D6",
+      "name": "Copper Bridge",
+      "description": "Forge Digital uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "app",
+      "created_at": "2025-05-23 19:17:23",
+      "updated_at": "2025-09-05 14:35:20"
+    },
+    {
+      "id": 8977287,
+      "app_id": "IY2LXIGSHMIC",
+      "name": "Vector Forge",
+      "description": "Nova Works uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "installation",
+      "created_at": "2025-06-23 03:38:32",
+      "updated_at": "2025-07-30 01:02:49"
+    },
+    {
+      "id": 7327377,
+      "app_id": "IVCON41Y0RIG",
+      "name": "Drift Flow 7",
+      "description": "Forge Digital uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "refresh",
+      "created_at": "2025-04-22 09:57:59",
+      "updated_at": "2025-04-26 10:22:57"
+    },
+    {
+      "id": 9210611,
+      "app_id": "INP3I8LE64NX",
+      "name": "Vector Forge",
+      "description": "Lattice Studio uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "bot",
+      "created_at": "2025-08-08 22:06:48",
+      "updated_at": "2025-08-12 18:05:17"
+    },
+    {
+      "id": 3552461,
+      "app_id": "ITHASGOLZ0SA",
+      "name": "Copper Bridge",
+      "description": "Beacon Digital uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "user",
+      "created_at": "2025-03-13 16:39:43",
+      "updated_at": "2025-03-26 05:38:16"
+    },
+    {
+      "id": 8606893,
+      "app_id": "I5ZC547WC1OG",
+      "name": "Copper Bridge",
+      "description": "Beacon Digital uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "workspace",
+      "created_at": "2025-03-17 16:12:10",
+      "updated_at": "2025-04-03 01:10:20"
+    },
+    {
+      "id": 7225124,
+      "app_id": "ITD20SWL81GO",
+      "name": "Quasar Stream",
+      "description": "Harbor Digital uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "app",
+      "created_at": "2025-06-26 18:27:50",
+      "updated_at": "2025-06-27 04:54:17"
+    },
+    {
+      "id": 3304541,
+      "app_id": "IPOS0F59MOL7",
+      "name": "Cobalt Pulse 3",
+      "description": "Lattice Systems uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "installation",
+      "created_at": "2025-07-11 03:00:52",
+      "updated_at": "2025-07-13 04:40:07"
+    },
+    {
+      "id": 7633657,
+      "app_id": "I78UHJ5LMPTZ",
+      "name": "Helix Gateway",
+      "description": "Labs Studio uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "refresh",
+      "created_at": "2025-05-08 00:46:57",
+      "updated_at": "2025-06-07 01:12:30"
+    },
+    {
+      "id": 9397153,
+      "app_id": "IX46UY7I7RWK",
+      "name": "Atlas Vault",
+      "description": "Beacon Digital uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "bot",
+      "created_at": "2025-01-03 23:19:28",
+      "updated_at": "2025-02-03 04:51:29"
+    },
+    {
+      "id": 2896829,
+      "app_id": "I3XZPYKCE7Q1",
+      "name": "Atlas Vault",
+      "description": "Labs Studio uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "user",
+      "created_at": "2025-06-22 13:08:40",
+      "updated_at": "2025-06-24 00:14:31"
+    },
+    {
+      "id": 7043029,
+      "app_id": "I5F3ZHQ7X3FD",
+      "name": "Nimbus Beacon",
+      "description": "Harbor Digital uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "workspace",
+      "created_at": "2025-01-23 23:03:23",
+      "updated_at": "2025-01-27 12:29:52"
+    },
+    {
+      "id": 6848902,
+      "app_id": "IO23U0N858NR",
+      "name": "Copper Bridge",
+      "description": "Lattice Systems uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "app",
+      "created_at": "2025-03-10 00:46:09",
+      "updated_at": "2025-04-17 10:51:22"
+    },
+    {
+      "id": 3645238,
+      "app_id": "IK51PWMU18AX",
+      "name": "Sierra Desk 2",
+      "description": "Harbor Digital uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "installation",
+      "created_at": "2025-02-22 19:59:15",
+      "updated_at": "2025-05-29 21:02:24"
+    },
+    {
+      "id": 2112416,
+      "app_id": "IPIYLGS22SK7",
+      "name": "Arcadia Signal",
+      "description": "Harbor Digital uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "refresh",
+      "created_at": "2025-01-14 19:24:31",
+      "updated_at": "2025-04-25 09:59:29"
+    },
+    {
+      "id": 5729148,
+      "app_id": "I81SRR876RD6",
+      "name": "Vector Forge",
+      "description": "Northstar Analytics uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "bot",
+      "created_at": "2025-02-25 02:54:03",
+      "updated_at": "2025-05-17 19:58:28"
+    },
+    {
+      "id": 6178804,
+      "app_id": "IN7PGCEH4PLN",
+      "name": "Copper Bridge",
+      "description": "Harbor Digital uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "user",
+      "created_at": "2025-04-15 04:53:10",
+      "updated_at": "2025-05-19 20:48:13"
+    },
+    {
+      "id": 7388370,
+      "app_id": "I55OATOWHDUP",
+      "name": "Atlas Vault",
+      "description": "Northstar Analytics uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "workspace",
+      "created_at": "2025-06-06 21:58:43",
+      "updated_at": "2025-09-12 06:17:42"
+    },
+    {
+      "id": 8304340,
+      "app_id": "IO48SBWCPPRB",
+      "name": "Atlas Vault",
+      "description": "Nova Works uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "app",
+      "created_at": "2025-01-21 21:00:43",
+      "updated_at": "2025-05-03 00:03:13"
+    },
+    {
+      "id": 7312937,
+      "app_id": "IYCLXRY1X9CJ",
+      "name": "Atlas Vault",
+      "description": "Lattice Systems uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "installation",
+      "created_at": "2025-02-11 12:19:50",
+      "updated_at": "2025-08-25 04:46:27"
+    },
+    {
+      "id": 4205973,
+      "app_id": "IVJ6HSZ6OHNS",
+      "name": "Vector Forge",
+      "description": "Forge Digital uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "refresh",
+      "created_at": "2025-04-04 20:24:15",
+      "updated_at": "2025-04-15 21:38:09"
+    },
+    {
+      "id": 6302751,
+      "app_id": "I91UMX4B49YQ",
+      "name": "Helix Gateway",
+      "description": "Northstar Analytics uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "bot",
+      "created_at": "2025-01-03 17:00:28",
+      "updated_at": "2025-05-22 07:37:26"
+    },
+    {
+      "id": 3517851,
+      "app_id": "IICUI7F1VXCE",
+      "name": "Atlas Vault",
+      "description": "Harbor Digital uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "user",
+      "created_at": "2025-07-07 17:43:29",
+      "updated_at": "2025-07-08 00:33:55"
+    },
+    {
+      "id": 719363,
+      "app_id": "I8ESKFNKJT7A",
+      "name": "Helix Gateway",
+      "description": "Harbor Digital uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "workspace",
+      "created_at": "2025-01-30 20:21:45",
+      "updated_at": "2025-01-31 20:46:10"
+    },
+    {
+      "id": 5529883,
+      "app_id": "ILXPDR6D2SUV",
+      "name": "Vector Forge",
+      "description": "Nova Works uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "app",
+      "created_at": "2025-08-06 14:27:43",
+      "updated_at": "2025-08-11 16:13:25"
+    },
+    {
+      "id": 2112227,
+      "app_id": "IIG1QV1IMWA4",
+      "name": "Helix Gateway",
+      "description": "Lattice Systems uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "installation",
+      "created_at": "2025-03-02 22:41:24",
+      "updated_at": "2025-03-06 19:11:42"
+    },
+    {
+      "id": 8910630,
+      "app_id": "I6639FUAO4GK",
+      "name": "Cobalt Pulse 3",
+      "description": "Harbor Digital uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "refresh",
+      "created_at": "2025-05-28 15:44:54",
+      "updated_at": "2025-06-02 19:39:22"
+    },
+    {
+      "id": 4963752,
+      "app_id": "IG4HQKZ4TGGM",
+      "name": "Nova Pilot 8",
+      "description": "Harbor Digital uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "bot",
+      "created_at": "2025-07-01 23:12:04",
+      "updated_at": "2025-07-07 12:56:22"
+    },
+    {
+      "id": 3374917,
+      "app_id": "IPR79WZHJAYA",
+      "name": "Vector Forge",
+      "description": "Northstar Analytics uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "user",
+      "created_at": "2025-08-30 16:25:29",
+      "updated_at": "2025-09-01 06:04:26"
+    },
+    {
+      "id": 8253663,
+      "app_id": "IY77P56P3TBN",
+      "name": "Atlas Vault",
+      "description": "Nova Works uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": true,
+      "token_type": "workspace",
+      "created_at": "2025-04-08 02:34:58",
+      "updated_at": "2025-04-12 15:25:35"
+    },
+    {
+      "id": 9141047,
+      "app_id": "ISQSSZL66XAA",
+      "name": "Quasar Stream",
+      "description": "Lattice Studio uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_sensitive": false,
+      "token_type": "app",
+      "created_at": "2025-04-09 04:41:39",
+      "updated_at": "2025-05-07 10:53:10"
+    }
+  ]
+}

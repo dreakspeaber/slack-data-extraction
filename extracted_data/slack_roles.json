@@ -1,0 +1,335 @@
+{
+  "table_name": "slack_roles",
+  "columns": [
+    "id",
+    "name",
+    "description",
+    "is_active",
+    "created_at",
+    "updated_at"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.397827",
+  "data": [
+    {
+      "id": "IJ6G5DNE59GI",
+      "name": "Nova Core",
+      "description": "Meridian Analytics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-08-17 16:53:17",
+      "updated_at": "2025-08-22 14:59:39"
+    },
+    {
+      "id": "IOBAWW0K3164",
+      "name": "Granite Service",
+      "description": "Phoenix Digital Group uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-02-11 07:27:16",
+      "updated_at": "2025-07-14 06:52:28"
+    },
+    {
+      "id": "I96B69IVCI6M",
+      "name": "Clear Cloud",
+      "description": "Quantum Dynamics uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-02-15 12:14:11",
+      "updated_at": "2025-04-19 00:14:02"
+    },
+    {
+      "id": "IYXT480MTT87",
+      "name": "Terra Center",
+      "description": "NexTech Solutions uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-03-27 20:45:23",
+      "updated_at": "2025-03-31 15:13:18"
+    },
+    {
+      "id": "ISXV6796BM6A",
+      "name": "Vector Bridge",
+      "description": "Meridian Analytics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-04-29 18:31:48",
+      "updated_at": "2025-05-05 15:34:17"
+    },
+    {
+      "id": "I0G5CXNZ90GO",
+      "name": "Atlas Gateway",
+      "description": "Quantum Dynamics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-04-09 02:15:36",
+      "updated_at": "2025-05-02 07:42:00"
+    },
+    {
+      "id": "ILWY0SRRC4JM",
+      "name": "Terra Station",
+      "description": "NexTech Solutions uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-08-06 08:31:27",
+      "updated_at": "2025-08-09 17:03:40"
+    },
+    {
+      "id": "I62CZ2OV808P",
+      "name": "Atlas Hub",
+      "description": "Quantum Dynamics uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-07-05 17:08:50",
+      "updated_at": "2025-07-06 15:53:30"
+    },
+    {
+      "id": "IK80PS9TXMSI",
+      "name": "Cobalt Center",
+      "description": "Phoenix Digital Group uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-03-06 07:33:09",
+      "updated_at": "2025-03-08 13:18:47"
+    },
+    {
+      "id": "IZLLJPELU7BE",
+      "name": "Nova Cloud",
+      "description": "NexTech Solutions uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-07-13 10:15:53",
+      "updated_at": "2025-07-18 09:02:17"
+    },
+    {
+      "id": "IVY896KL4AOM",
+      "name": "Cobalt Service",
+      "description": "NexTech Solutions uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-04-02 20:47:01",
+      "updated_at": "2025-07-12 23:22:46"
+    },
+    {
+      "id": "IYVWBKCGRAK5",
+      "name": "Granite Deck",
+      "description": "Quantum Dynamics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-04-28 08:32:47",
+      "updated_at": "2025-05-01 19:55:13"
+    },
+    {
+      "id": "IGO9OQDNSW1Z",
+      "name": "Terra Console",
+      "description": "Phoenix Digital Group uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-09-10 00:45:32",
+      "updated_at": "2025-09-10 05:24:31"
+    },
+    {
+      "id": "IY3G872HBJUH",
+      "name": "Nimbus Deck",
+      "description": "NexTech Solutions uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-08-20 14:41:34",
+      "updated_at": "2025-08-24 05:09:08"
+    },
+    {
+      "id": "I71HZEHWV6SM",
+      "name": "Cobalt Console",
+      "description": "Phoenix Digital Group uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-05-13 23:19:22",
+      "updated_at": "2025-07-25 11:47:00"
+    },
+    {
+      "id": "IOLGMQH3IQO4",
+      "name": "Nimbus Core",
+      "description": "NexTech Solutions uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-07-12 01:54:24",
+      "updated_at": "2025-07-16 21:37:03"
+    },
+    {
+      "id": "I4OSW11EV187",
+      "name": "Vector Cloud",
+      "description": "Quantum Dynamics uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-07-06 11:04:51",
+      "updated_at": "2025-07-07 10:46:29"
+    },
+    {
+      "id": "I1CI2U1851X7",
+      "name": "Cobalt Station",
+      "description": "Quantum Dynamics uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-06-16 00:46:20",
+      "updated_at": "2025-06-23 17:23:22"
+    },
+    {
+      "id": "ISNUBFP5BYDD",
+      "name": "Atlas Center",
+      "description": "Meridian Analytics uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-07-30 06:33:02",
+      "updated_at": "2025-07-30 06:40:18"
+    },
+    {
+      "id": "IB7UGXBL15VG",
+      "name": "Atlas Cloud",
+      "description": "NexTech Solutions uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-03-24 12:30:25",
+      "updated_at": "2025-07-20 14:36:13"
+    },
+    {
+      "id": "IZ2QN9KKJ2P2",
+      "name": "Clear Hub",
+      "description": "NexTech Solutions uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-04-16 02:29:27",
+      "updated_at": "2025-04-19 12:13:31"
+    },
+    {
+      "id": "I4T4UCB0JHYX",
+      "name": "Bright Station",
+      "description": "Meridian Analytics uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-02-16 05:39:19",
+      "updated_at": "2025-09-05 22:00:14"
+    },
+    {
+      "id": "IP89231R1SGA",
+      "name": "Quasar Gateway",
+      "description": "Meridian Analytics uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-08-14 13:11:04",
+      "updated_at": "2025-08-27 13:53:20"
+    },
+    {
+      "id": "IJHFZBALBG38",
+      "name": "Granite Core",
+      "description": "Quantum Dynamics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-08-22 02:21:11",
+      "updated_at": "2025-08-24 11:03:50"
+    },
+    {
+      "id": "IQ0NW44UCC3G",
+      "name": "Terra Cloud",
+      "description": "Phoenix Digital Group uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-08-15 03:27:33",
+      "updated_at": "2025-08-16 20:27:56"
+    },
+    {
+      "id": "I38DPYQOH1G0",
+      "name": "Nimbus Cloud",
+      "description": "Phoenix Digital Group uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-09-12 21:28:43",
+      "updated_at": "2025-09-18 00:05:05"
+    },
+    {
+      "id": "IGIWT00USMJA",
+      "name": "Nova Portal",
+      "description": "Phoenix Digital Group uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-06-08 01:10:05",
+      "updated_at": "2025-06-30 19:10:25"
+    },
+    {
+      "id": "IFCCF2SECAQX",
+      "name": "Copper Station",
+      "description": "Quantum Dynamics uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-01-28 08:18:59",
+      "updated_at": "2025-04-10 06:10:37"
+    },
+    {
+      "id": "IW4VNFIVSDF6",
+      "name": "Quasar Gateway",
+      "description": "Quantum Dynamics uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-08-31 22:04:35",
+      "updated_at": "2025-09-04 18:05:00"
+    },
+    {
+      "id": "IM5JO15M5ZQU",
+      "name": "Vector Gateway",
+      "description": "Phoenix Digital Group uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-03-24 01:42:14",
+      "updated_at": "2025-08-31 22:13:58"
+    },
+    {
+      "id": "I3Q04HAG5RKF",
+      "name": "Cobalt Deck",
+      "description": "Quantum Dynamics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-02-03 13:14:56",
+      "updated_at": "2025-07-03 15:32:58"
+    },
+    {
+      "id": "IO4FK46ESXZY",
+      "name": "Nova Station",
+      "description": "Meridian Analytics uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-01-27 23:00:02",
+      "updated_at": "2025-03-31 06:29:22"
+    },
+    {
+      "id": "I6GI3O9LI9KZ",
+      "name": "Copper Hub",
+      "description": "NexTech Solutions uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-05-19 21:50:04",
+      "updated_at": "2025-05-25 08:01:32"
+    },
+    {
+      "id": "I74GEM61NUEK",
+      "name": "Terra Bridge",
+      "description": "NexTech Solutions uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-03-16 20:45:05",
+      "updated_at": "2025-06-25 07:45:07"
+    },
+    {
+      "id": "I5A2LZU4DGQ5",
+      "name": "Nimbus Core",
+      "description": "Quantum Dynamics uses a Slack workspace for engineering. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-01-08 05:27:35",
+      "updated_at": "2025-05-11 00:36:42"
+    },
+    {
+      "id": "IPR946I4WR1D",
+      "name": "Terra Core",
+      "description": "Meridian Analytics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-08-02 23:40:04",
+      "updated_at": "2025-08-03 18:55:43"
+    },
+    {
+      "id": "IKLAN13BNA1P",
+      "name": "Quasar Gateway",
+      "description": "Meridian Analytics uses a Slack workspace for support. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-01-17 04:14:42",
+      "updated_at": "2025-04-15 11:35:52"
+    },
+    {
+      "id": "I4KQ9MF5SZDF",
+      "name": "Nimbus Hub",
+      "description": "Phoenix Digital Group uses a Slack workspace for ops. This description covers internal workflows, notifications, and access policy.",
+      "is_active": true,
+      "created_at": "2025-09-06 06:13:04",
+      "updated_at": "2025-09-10 11:27:32"
+    },
+    {
+      "id": "ILITP9ZTWFW7",
+      "name": "Quasar Portal",
+      "description": "Quantum Dynamics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-01-30 22:49:14",
+      "updated_at": "2025-06-12 16:17:57"
+    },
+    {
+      "id": "I3PIKAMDUUQ4",
+      "name": "Atlas Cloud",
+      "description": "Meridian Analytics uses a Slack workspace for product. This description covers internal workflows, notifications, and access policy.",
+      "is_active": false,
+      "created_at": "2025-02-09 05:12:42",
+      "updated_at": "2025-06-07 18:06:50"
+    }
+  ]
+}

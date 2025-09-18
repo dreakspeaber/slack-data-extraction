@@ -1,0 +1,417 @@
+{
+  "table_name": "slack_workflow_triggers",
+  "columns": [
+    "id",
+    "workflow_id",
+    "trigger_type_id",
+    "channel_id",
+    "is_active",
+    "created_at",
+    "updated_at",
+    "created_by"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.420628",
+  "data": [
+    {
+      "id": "IN2L2GD170GB",
+      "workflow_id": "ICUI18VUE726",
+      "trigger_type_id": 328298,
+      "channel_id": "C25C5XC73D04",
+      "is_active": false,
+      "created_at": "2025-03-04 22:04:54",
+      "updated_at": "2025-09-16 04:46:35",
+      "created_by": "UDCRSAZCUI28"
+    },
+    {
+      "id": "IT2RVATIRT3V",
+      "workflow_id": "IYS7VR0TIUC7",
+      "trigger_type_id": 6778444,
+      "channel_id": "C2SOYW4N0AVB",
+      "is_active": true,
+      "created_at": "2025-07-30 18:19:49",
+      "updated_at": "2025-08-01 22:40:15",
+      "created_by": "UNCYFSQI3BKC"
+    },
+    {
+      "id": "IL0US6BXSZD8",
+      "workflow_id": "IKVNAE009VT8",
+      "trigger_type_id": 4179474,
+      "channel_id": "CLW1A301N5AB",
+      "is_active": false,
+      "created_at": "2025-02-23 17:29:47",
+      "updated_at": "2025-02-27 05:08:27",
+      "created_by": "U6JPN1WIY43I"
+    },
+    {
+      "id": "IIR6CRDNLE5Z",
+      "workflow_id": "I6RU9X4UYGPA",
+      "trigger_type_id": 7432742,
+      "channel_id": "CHW7X1N6HCDV",
+      "is_active": false,
+      "created_at": "2025-09-16 22:04:53",
+      "updated_at": "2025-09-20 22:07:40",
+      "created_by": "UNEFADXMANN2"
+    },
+    {
+      "id": "I472XQGV1R4G",
+      "workflow_id": "IWO7RSPUHAKW",
+      "trigger_type_id": 4422630,
+      "channel_id": "C59PHR2UPJ99",
+      "is_active": false,
+      "created_at": "2025-09-10 07:06:22",
+      "updated_at": "2025-09-10 23:54:37",
+      "created_by": "UDTPG5RQHZY1"
+    },
+    {
+      "id": "IGEOXSCFD4LI",
+      "workflow_id": "ITXFWGSSPLRG",
+      "trigger_type_id": 3555929,
+      "channel_id": "C58XHISSRGDC",
+      "is_active": false,
+      "created_at": "2025-09-09 16:08:29",
+      "updated_at": "2025-09-09 19:54:46",
+      "created_by": "U46ZNRRHDCQ2"
+    },
+    {
+      "id": "IF0V756MOUB4",
+      "workflow_id": "IBK7O4QPKM8K",
+      "trigger_type_id": 1343123,
+      "channel_id": "CLG5CV02LBRE",
+      "is_active": false,
+      "created_at": "2025-02-09 03:12:09",
+      "updated_at": "2025-07-31 13:22:59",
+      "created_by": "U96HAD6D0RD0"
+    },
+    {
+      "id": "IOSA7ZCMYHUD",
+      "workflow_id": "I5XXKE4T1B15",
+      "trigger_type_id": 562357,
+      "channel_id": "C8JLE5DIAL4R",
+      "is_active": true,
+      "created_at": "2025-08-25 09:42:57",
+      "updated_at": "2025-08-27 10:46:59",
+      "created_by": "UJ0Z8Y27KTB4"
+    },
+    {
+      "id": "IRNZFK0V945I",
+      "workflow_id": "ISCXOUOA2YXF",
+      "trigger_type_id": 8792143,
+      "channel_id": "CNZQB041Z40U",
+      "is_active": true,
+      "created_at": "2025-09-15 04:34:23",
+      "updated_at": "2025-09-17 22:08:07",
+      "created_by": "UKSG0H4SUGVT"
+    },
+    {
+      "id": "IZVH1N9P84XV",
+      "workflow_id": "IGK1RQ9LPMK7",
+      "trigger_type_id": 4364705,
+      "channel_id": "CCAXZ54SLP90",
+      "is_active": true,
+      "created_at": "2025-02-23 06:18:25",
+      "updated_at": "2025-08-30 21:46:19",
+      "created_by": "UHVY6B0O8N3L"
+    },
+    {
+      "id": "I7LYO7Z21LMR",
+      "workflow_id": "I0B60HQQ5EQP",
+      "trigger_type_id": 7951873,
+      "channel_id": "CSTL4L6MGDB9",
+      "is_active": false,
+      "created_at": "2025-07-22 06:35:58",
+      "updated_at": "2025-07-23 03:00:43",
+      "created_by": "U446KPSWBJG1"
+    },
+    {
+      "id": "IXZLN3W4PDFE",
+      "workflow_id": "IFEBPSW0N67Q",
+      "trigger_type_id": 3731846,
+      "channel_id": "CMBET8CWK9QQ",
+      "is_active": true,
+      "created_at": "2025-07-29 07:44:55",
+      "updated_at": "2025-08-01 21:11:53",
+      "created_by": "UBBOY5IOKGAC"
+    },
+    {
+      "id": "IDEQ80U9L6X2",
+      "workflow_id": "IQXNRON4ER5Y",
+      "trigger_type_id": 1276837,
+      "channel_id": "CDS5LLKXBUWJ",
+      "is_active": true,
+      "created_at": "2025-06-23 07:10:40",
+      "updated_at": "2025-08-02 11:42:10",
+      "created_by": "U3RJW9WTCWER"
+    },
+    {
+      "id": "IDGXJ61BINA4",
+      "workflow_id": "IZBTR3UIVUWI",
+      "trigger_type_id": 5436052,
+      "channel_id": "CBSEW6D9H8NB",
+      "is_active": true,
+      "created_at": "2025-08-24 09:05:40",
+      "updated_at": "2025-09-05 07:02:40",
+      "created_by": "UYJ6XCQP18EM"
+    },
+    {
+      "id": "IRSW7NX87SFG",
+      "workflow_id": "I6H5CCQHFJA5",
+      "trigger_type_id": 1451168,
+      "channel_id": "C8SH5XVI4QIT",
+      "is_active": true,
+      "created_at": "2025-07-03 08:52:29",
+      "updated_at": "2025-07-08 12:45:15",
+      "created_by": "UVW6PA5FPTZJ"
+    },
+    {
+      "id": "IH1QILJPGW5E",
+      "workflow_id": "IUO7U8P1CDXD",
+      "trigger_type_id": 2587599,
+      "channel_id": "CR0PRMD2D3Q5",
+      "is_active": true,
+      "created_at": "2025-01-24 08:59:58",
+      "updated_at": "2025-04-22 09:30:19",
+      "created_by": "UBF1G18UVUEE"
+    },
+    {
+      "id": "IQJS4Z3O7RJV",
+      "workflow_id": "INWQOYV7ZMCV",
+      "trigger_type_id": 8558700,
+      "channel_id": "CRW8H8USFLU8",
+      "is_active": true,
+      "created_at": "2025-01-01 22:45:33",
+      "updated_at": "2025-06-22 16:48:44",
+      "created_by": "URF491VANEAG"
+    },
+    {
+      "id": "ILZTVW2GKQW0",
+      "workflow_id": "IAUVOTFDJ8GC",
+      "trigger_type_id": 9118807,
+      "channel_id": "CKSZPAHI1VCB",
+      "is_active": true,
+      "created_at": "2025-04-26 16:53:25",
+      "updated_at": "2025-07-23 15:43:53",
+      "created_by": "U8CG31DDBIDC"
+    },
+    {
+      "id": "IR3O1H9NHU20",
+      "workflow_id": "ILOTQNHM4EJ1",
+      "trigger_type_id": 9736664,
+      "channel_id": "C3FDMLLGPMXL",
+      "is_active": false,
+      "created_at": "2025-02-11 07:35:34",
+      "updated_at": "2025-03-02 19:10:26",
+      "created_by": "UEXOV76IOQFN"
+    },
+    {
+      "id": "IBF4ZI4QL31S",
+      "workflow_id": "IS1O0VXD4VPM",
+      "trigger_type_id": 2024306,
+      "channel_id": "CVHPSQHBBKMH",
+      "is_active": true,
+      "created_at": "2025-04-24 08:41:55",
+      "updated_at": "2025-09-13 01:15:17",
+      "created_by": "UAHSKU4V93HQ"
+    },
+    {
+      "id": "IVV9FRIHZCFE",
+      "workflow_id": "IBUPAWX25I9L",
+      "trigger_type_id": 9115029,
+      "channel_id": "C4DR3VK3YYW2",
+      "is_active": false,
+      "created_at": "2025-02-16 12:21:24",
+      "updated_at": "2025-07-23 17:13:16",
+      "created_by": "U64QH5DFMPDS"
+    },
+    {
+      "id": "I3GUHAS8NL9W",
+      "workflow_id": "IXDLVNL4BOSA",
+      "trigger_type_id": 8486472,
+      "channel_id": "C8KBAEB1B6LD",
+      "is_active": false,
+      "created_at": "2025-06-24 00:44:25",
+      "updated_at": "2025-06-27 02:43:51",
+      "created_by": "U8WUO8WUNDB0"
+    },
+    {
+      "id": "IZMF09BUMPC9",
+      "workflow_id": "IAOIJBWP1PEU",
+      "trigger_type_id": 5078393,
+      "channel_id": "CAGEDFFZGSQA",
+      "is_active": true,
+      "created_at": "2025-02-18 18:39:40",
+      "updated_at": "2025-02-20 02:01:55",
+      "created_by": "UQ9C5B0E1E0O"
+    },
+    {
+      "id": "ICRVXI5CGUYV",
+      "workflow_id": "IG9Z344CITS1",
+      "trigger_type_id": 7983765,
+      "channel_id": "C7RVRSK5CKD1",
+      "is_active": true,
+      "created_at": "2025-07-18 18:06:01",
+      "updated_at": "2025-07-23 14:55:15",
+      "created_by": "USUP2N8RB0MS"
+    },
+    {
+      "id": "ITP58XHCG2RB",
+      "workflow_id": "I2O5RLZG19UU",
+      "trigger_type_id": 9445102,
+      "channel_id": "CT84T2Z2XWMD",
+      "is_active": true,
+      "created_at": "2025-08-28 12:17:37",
+      "updated_at": "2025-08-28 17:37:34",
+      "created_by": "U30BLANGISFK"
+    },
+    {
+      "id": "IQ73JW7HZ9UR",
+      "workflow_id": "IL7SXU0RN881",
+      "trigger_type_id": 7195658,
+      "channel_id": "CC5PLOR52HAL",
+      "is_active": true,
+      "created_at": "2025-09-15 14:50:19",
+      "updated_at": "2025-09-17 21:57:28",
+      "created_by": "URGUSL5JHH88"
+    },
+    {
+      "id": "IMH5MXQ1QS4T",
+      "workflow_id": "ICJ8OERKRU71",
+      "trigger_type_id": 4499665,
+      "channel_id": "CQB611M1WAQ2",
+      "is_active": true,
+      "created_at": "2025-06-09 01:03:31",
+      "updated_at": "2025-06-09 10:47:54",
+      "created_by": "UUGE8OWIGWPD"
+    },
+    {
+      "id": "IX6YWQ39ZQMJ",
+      "workflow_id": "IKXT0WNBJ7H9",
+      "trigger_type_id": 4834327,
+      "channel_id": "CPKXMMIPE0VV",
+      "is_active": false,
+      "created_at": "2025-04-18 21:23:47",
+      "updated_at": "2025-04-22 20:57:00",
+      "created_by": "UPHXD9YQMOZ9"
+    },
+    {
+      "id": "IJ4L5ZTGHVDK",
+      "workflow_id": "IGZDRY7HCNP1",
+      "trigger_type_id": 8425826,
+      "channel_id": "CMBAZZJFCY6J",
+      "is_active": false,
+      "created_at": "2025-07-15 02:44:01",
+      "updated_at": "2025-07-15 21:01:00",
+      "created_by": "UWOEG6NTASZI"
+    },
+    {
+      "id": "I28S2IE0NDNK",
+      "workflow_id": "I9SJA6YRMJPG",
+      "trigger_type_id": 1567402,
+      "channel_id": "CGERUEKCLOCN",
+      "is_active": true,
+      "created_at": "2025-07-31 00:37:17",
+      "updated_at": "2025-08-04 08:21:15",
+      "created_by": "UDDELCSOM9GN"
+    },
+    {
+      "id": "IXO1M5WPPY38",
+      "workflow_id": "IBRBBWLE6HF3",
+      "trigger_type_id": 5890106,
+      "channel_id": "CQY5J91CBUCW",
+      "is_active": false,
+      "created_at": "2025-08-01 06:04:14",
+      "updated_at": "2025-08-04 05:58:49",
+      "created_by": "UY9NBI0HQ00C"
+    },
+    {
+      "id": "I56T7N0CTWJO",
+      "workflow_id": "IKNUJQ29P8IN",
+      "trigger_type_id": 8388176,
+      "channel_id": "CXRJRSU88ZAN",
+      "is_active": true,
+      "created_at": "2025-06-01 05:11:23",
+      "updated_at": "2025-06-01 06:56:41",
+      "created_by": "UXN5NTFQGCND"
+    },
+    {
+      "id": "IWD4GIT8SU1L",
+      "workflow_id": "IRVDCYZVM7LQ",
+      "trigger_type_id": 3461864,
+      "channel_id": "CRMQSYP2WDNN",
+      "is_active": false,
+      "created_at": "2025-02-07 23:03:20",
+      "updated_at": "2025-08-08 03:21:35",
+      "created_by": "U76K6DO3R52G"
+    },
+    {
+      "id": "IOFHUQZUI5YU",
+      "workflow_id": "IZK06ZZFZ9O6",
+      "trigger_type_id": 993040,
+      "channel_id": "C9BUVDHYEI5K",
+      "is_active": true,
+      "created_at": "2025-08-28 02:41:03",
+      "updated_at": "2025-09-02 08:39:07",
+      "created_by": "UJI83MACL5DP"
+    },
+    {
+      "id": "IMVG88JMYAIC",
+      "workflow_id": "ICX7YEDJ2IJN",
+      "trigger_type_id": 1449888,
+      "channel_id": "C4T1O4Y8LMZV",
+      "is_active": false,
+      "created_at": "2025-03-20 05:00:47",
+      "updated_at": "2025-03-25 17:17:48",
+      "created_by": "ULT7FQKDW1E0"
+    },
+    {
+      "id": "IXBAM4ZHR4XN",
+      "workflow_id": "IY0SCD7ALL5W",
+      "trigger_type_id": 208514,
+      "channel_id": "CCQM337V1JSH",
+      "is_active": false,
+      "created_at": "2025-08-08 15:18:32",
+      "updated_at": "2025-08-14 12:46:38",
+      "created_by": "UDHYYZNY3SIW"
+    },
+    {
+      "id": "IPH8ROIFP3BN",
+      "workflow_id": "IS85IS18R6ND",
+      "trigger_type_id": 133015,
+      "channel_id": "CB4V6SOKPO6N",
+      "is_active": false,
+      "created_at": "2025-05-11 01:49:47",
+      "updated_at": "2025-05-16 16:36:42",
+      "created_by": "U28SCW0DGMNL"
+    },
+    {
+      "id": "IZJCJGON8A45",
+      "workflow_id": "IMN65QXA1EZZ",
+      "trigger_type_id": 8918875,
+      "channel_id": "CRB50P8JHO78",
+      "is_active": false,
+      "created_at": "2025-08-06 04:28:20",
+      "updated_at": "2025-08-07 03:50:43",
+      "created_by": "USGCQSX5G4R0"
+    },
+    {
+      "id": "I9UFX3AIGL1P",
+      "workflow_id": "I9L7M0VTCVW0",
+      "trigger_type_id": 174337,
+      "channel_id": "CW55KO8NPPE3",
+      "is_active": false,
+      "created_at": "2025-07-27 03:33:02",
+      "updated_at": "2025-08-01 10:57:48",
+      "created_by": "UQUZKV758OZD"
+    },
+    {
+      "id": "I36MP6I6RKB8",
+      "workflow_id": "IP2SCWEYD9IO",
+      "trigger_type_id": 190908,
+      "channel_id": "C9LHZFWU3GKB",
+      "is_active": true,
+      "created_at": "2025-04-01 10:25:06",
+      "updated_at": "2025-06-10 01:26:21",
+      "created_by": "UMTQ1QF32LS4"
+    }
+  ]
+}

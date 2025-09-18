@@ -1,0 +1,88 @@
+{
+  "table_name": "slack_enterprises",
+  "columns": [
+    "id",
+    "name",
+    "domain",
+    "is_verified",
+    "date_created",
+    "created_at",
+    "updated_at"
+  ],
+  "row_count": 8,
+  "extracted_at": "2025-09-19T01:07:28.405137",
+  "data": [
+    {
+      "id": "ET5Z7SKT1AZ6",
+      "name": "Nova Works",
+      "domain": "apex.slack.com",
+      "is_verified": true,
+      "date_created": "2025-03-11 09:08:56",
+      "created_at": "2025-04-22 06:24:44",
+      "updated_at": "2025-07-17 06:30:55"
+    },
+    {
+      "id": "ECOWPIVNC412",
+      "name": "Northstar Analytics",
+      "domain": "lattice.slack.com",
+      "is_verified": true,
+      "date_created": "2025-05-06 14:42:27",
+      "created_at": "2025-08-13 13:18:03",
+      "updated_at": "2025-08-24 05:33:31"
+    },
+    {
+      "id": "EF7ZT2CC0VJX",
+      "name": "Lattice Systems",
+      "domain": "northstar.slack.com",
+      "is_verified": true,
+      "date_created": "2025-08-10 23:51:51",
+      "created_at": "2025-08-28 03:40:57",
+      "updated_at": "2025-09-02 21:01:56"
+    },
+    {
+      "id": "E1MUE22O9A1C",
+      "name": "Beacon Digital",
+      "domain": "harbor.slack.com",
+      "is_verified": true,
+      "date_created": "2025-06-10 10:53:57",
+      "created_at": "2025-07-29 20:25:39",
+      "updated_at": "2025-08-04 18:07:11"
+    },
+    {
+      "id": "ELG7DOM9632U",
+      "name": "Lattice Studio",
+      "domain": "granite.slack.com",
+      "is_verified": true,
+      "date_created": "2025-04-26 07:18:50",
+      "created_at": "2025-04-12 07:04:11",
+      "updated_at": "2025-06-21 21:58:33"
+    },
+    {
+      "id": "ETBA9UD0UAS8",
+      "name": "Harbor Digital",
+      "domain": "silverline.slack.com",
+      "is_verified": true,
+      "date_created": "2025-05-10 04:12:39",
+      "created_at": "2025-09-06 15:39:17",
+      "updated_at": "2025-09-08 20:23:28"
+    },
+    {
+      "id": "EZQHX6E0BHDS",
+      "name": "Labs Studio",
+      "domain": "summit.slack.com",
+      "is_verified": true,
+      "date_created": "2025-05-14 22:07:00",
+      "created_at": "2025-03-23 16:12:37",
+      "updated_at": "2025-08-20 21:39:59"
+    },
+    {
+      "id": "EO8RH1Q5KE3O",
+      "name": "Forge Digital",
+      "domain": "beacon.slack.com",
+      "is_verified": true,
+      "date_created": "2025-03-17 12:08:14",
+      "created_at": "2025-05-01 21:24:04",
+      "updated_at": "2025-06-27 04:01:07"
+    }
+  ]
+}

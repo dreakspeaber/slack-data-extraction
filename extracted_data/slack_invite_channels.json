@@ -1,0 +1,253 @@
+{
+  "table_name": "slack_invite_channels",
+  "columns": [
+    "id",
+    "invite_id",
+    "channel_id",
+    "created_at"
+  ],
+  "row_count": 40,
+  "extracted_at": "2025-09-19T01:07:28.419951",
+  "data": [
+    {
+      "id": "ILMEQPFUQMBK",
+      "invite_id": "IKCX8IF60NIZ",
+      "channel_id": "C25C5XC73D04",
+      "created_at": "2025-01-03 15:29:27"
+    },
+    {
+      "id": "ICWZT1BY7WPD",
+      "invite_id": "ILKKJU7XGSUX",
+      "channel_id": "C2SOYW4N0AVB",
+      "created_at": "2025-02-24 03:29:59"
+    },
+    {
+      "id": "IF11J16DQQZQ",
+      "invite_id": "IUP34XYV7G70",
+      "channel_id": "CLW1A301N5AB",
+      "created_at": "2025-06-22 07:59:35"
+    },
+    {
+      "id": "IE3MRB5T6ZBQ",
+      "invite_id": "IP0EQNWQW72K",
+      "channel_id": "CHW7X1N6HCDV",
+      "created_at": "2025-06-15 23:40:59"
+    },
+    {
+      "id": "IPJ8B4WI1YSW",
+      "invite_id": "I6T6CEB7G7WC",
+      "channel_id": "C59PHR2UPJ99",
+      "created_at": "2025-02-17 02:41:45"
+    },
+    {
+      "id": "I69BY27NUU4M",
+      "invite_id": "IIQZ9XXY4Q2G",
+      "channel_id": "C58XHISSRGDC",
+      "created_at": "2025-04-01 21:48:28"
+    },
+    {
+      "id": "IR996JRYMA1U",
+      "invite_id": "I2QSMXAKQQ6O",
+      "channel_id": "CLG5CV02LBRE",
+      "created_at": "2025-05-20 23:14:33"
+    },
+    {
+      "id": "I77CTOY8ATCL",
+      "invite_id": "IT1SAPWMZ098",
+      "channel_id": "C8JLE5DIAL4R",
+      "created_at": "2025-02-16 02:35:03"
+    },
+    {
+      "id": "IUFA1I6Y0H2I",
+      "invite_id": "IXE95ZO92WCV",
+      "channel_id": "CNZQB041Z40U",
+      "created_at": "2025-07-20 17:10:34"
+    },
+    {
+      "id": "IK6SVXXGEWL3",
+      "invite_id": "IU8EURQEPY2S",
+      "channel_id": "CCAXZ54SLP90",
+      "created_at": "2025-02-21 23:04:04"
+    },
+    {
+      "id": "IGGWPHTGZ60K",
+      "invite_id": "IPNFINFYPAHP",
+      "channel_id": "CSTL4L6MGDB9",
+      "created_at": "2025-07-21 05:03:18"
+    },
+    {
+      "id": "IAFQW9GH2L1E",
+      "invite_id": "IO1YZCKCFI8W",
+      "channel_id": "CMBET8CWK9QQ",
+      "created_at": "2025-03-06 10:01:25"
+    },
+    {
+      "id": "IW50SEUENG73",
+      "invite_id": "IUK3IVYIXJ87",
+      "channel_id": "CDS5LLKXBUWJ",
+      "created_at": "2025-07-13 15:21:22"
+    },
+    {
+      "id": "I7P95MCMPMP8",
+      "invite_id": "IMFX45UMRKBE",
+      "channel_id": "CBSEW6D9H8NB",
+      "created_at": "2025-07-15 11:29:22"
+    },
+    {
+      "id": "IUZED9IKO4O0",
+      "invite_id": "I3N2KQ730RUZ",
+      "channel_id": "C8SH5XVI4QIT",
+      "created_at": "2025-08-08 20:40:04"
+    },
+    {
+      "id": "I9UU11D4VD0A",
+      "invite_id": "IPAXU1M3PBY6",
+      "channel_id": "CR0PRMD2D3Q5",
+      "created_at": "2025-04-06 13:19:58"
+    },
+    {
+      "id": "IEPS07RLTM1V",
+      "invite_id": "I4B6XP6MKGT5",
+      "channel_id": "CRW8H8USFLU8",
+      "created_at": "2025-08-20 14:50:31"
+    },
+    {
+      "id": "IYQ426HHJJ67",
+      "invite_id": "IC384M5OBHRF",
+      "channel_id": "CKSZPAHI1VCB",
+      "created_at": "2025-01-29 16:46:41"
+    },
+    {
+      "id": "IKE6YEICLX8G",
+      "invite_id": "I9SYR92LUTS3",
+      "channel_id": "C3FDMLLGPMXL",
+      "created_at": "2025-04-14 03:38:03"
+    },
+    {
+      "id": "ISLDCEU4KNDZ",
+      "invite_id": "I5MIUX8U2NR2",
+      "channel_id": "CVHPSQHBBKMH",
+      "created_at": "2025-04-05 18:14:48"
+    },
+    {
+      "id": "I3LNIBJNFHNI",
+      "invite_id": "I0J84WIYLS71",
+      "channel_id": "C4DR3VK3YYW2",
+      "created_at": "2025-01-06 16:45:43"
+    },
+    {
+      "id": "IYY6BV2HSTJH",
+      "invite_id": "IYGJVIV4G38X",
+      "channel_id": "C8KBAEB1B6LD",
+      "created_at": "2025-01-31 16:38:11"
+    },
+    {
+      "id": "IGCINRMHUNYL",
+      "invite_id": "I52LIHLH74J5",
+      "channel_id": "CAGEDFFZGSQA",
+      "created_at": "2025-06-08 04:20:42"
+    },
+    {
+      "id": "IDKN5YNUEHWE",
+      "invite_id": "I19KD7FY8GJ3",
+      "channel_id": "C7RVRSK5CKD1",
+      "created_at": "2025-05-18 02:32:47"
+    },
+    {
+      "id": "IVLEVFU54P4D",
+      "invite_id": "INI2AGJO6ZOR",
+      "channel_id": "CT84T2Z2XWMD",
+      "created_at": "2025-08-31 21:52:16"
+    },
+    {
+      "id": "ILB27BDB3X6I",
+      "invite_id": "I13K8MW3VJ1K",
+      "channel_id": "CC5PLOR52HAL",
+      "created_at": "2025-04-26 11:23:22"
+    },
+    {
+      "id": "IG7ZB1UQLEHX",
+      "invite_id": "ICTKEO4VXNKU",
+      "channel_id": "CQB611M1WAQ2",
+      "created_at": "2025-04-12 20:50:31"
+    },
+    {
+      "id": "IK2VKWLHZUMN",
+      "invite_id": "IJPU341U0FQX",
+      "channel_id": "CPKXMMIPE0VV",
+      "created_at": "2025-03-06 14:06:36"
+    },
+    {
+      "id": "IG0S9BQ4597L",
+      "invite_id": "I0YLWKC9Z7ZX",
+      "channel_id": "CMBAZZJFCY6J",
+      "created_at": "2025-05-06 05:39:06"
+    },
+    {
+      "id": "I70TVX3IVHPP",
+      "invite_id": "IT6BNJWX61SP",
+      "channel_id": "CGERUEKCLOCN",
+      "created_at": "2025-03-18 10:36:34"
+    },
+    {
+      "id": "I5ZL11HFMDMJ",
+      "invite_id": "II3YEIBES0O1",
+      "channel_id": "CQY5J91CBUCW",
+      "created_at": "2025-08-23 13:58:30"
+    },
+    {
+      "id": "IA2UFNYIDSK7",
+      "invite_id": "IP2N59R8HWIM",
+      "channel_id": "CXRJRSU88ZAN",
+      "created_at": "2025-03-18 07:19:59"
+    },
+    {
+      "id": "I7S1UUTVZTME",
+      "invite_id": "I1AVC2VP0D5S",
+      "channel_id": "CRMQSYP2WDNN",
+      "created_at": "2025-07-07 07:38:08"
+    },
+    {
+      "id": "IM09PI4R6JJS",
+      "invite_id": "IEPBJODFRRLJ",
+      "channel_id": "C9BUVDHYEI5K",
+      "created_at": "2025-02-04 23:35:24"
+    },
+    {
+      "id": "IYNUEY0TT8ZE",
+      "invite_id": "IUM6GUIGTUDK",
+      "channel_id": "C4T1O4Y8LMZV",
+      "created_at": "2025-01-27 15:46:24"
+    },
+    {
+      "id": "I5KHYLRVKI93",
+      "invite_id": "IVU7YU6O0RKC",
+      "channel_id": "CCQM337V1JSH",
+      "created_at": "2025-05-17 00:47:10"
+    },
+    {
+      "id": "IJKKRNO3DBNR",
+      "invite_id": "IA5UZQ6FV2LE",
+      "channel_id": "CB4V6SOKPO6N",
+      "created_at": "2025-03-17 03:52:50"
+    },
+    {
+      "id": "I4RUVXYHNFP1",
+      "invite_id": "IF7FOTH4HPC7",
+      "channel_id": "CRB50P8JHO78",
+      "created_at": "2025-01-04 10:11:54"
+    },
+    {
+      "id": "IROPGK8LNN1L",
+      "invite_id": "IG098RINVBU2",
+      "channel_id": "CW55KO8NPPE3",
+      "created_at": "2025-03-17 23:44:08"
+    },
+    {
+      "id": "IA27Z7YKW8KO",
+      "invite_id": "ICW814583V6Q",
+      "channel_id": "C9LHZFWU3GKB",
+      "created_at": "2025-02-11 17:13:39"
+    }
+  ]
+}

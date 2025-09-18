@@ -1,0 +1,946 @@
+{
+  "extraction_info": {
+    "source_file": "db_1758093955565_4jfjxb8pj.sql",
+    "extracted_at": "2025-09-19T01:07:28.420898",
+    "total_tables": 48,
+    "total_rows": 2531
+  },
+  "tables": {
+    "slack_audit_reports": {
+      "columns": [
+        "id",
+        "report_name",
+        "report_type",
+        "report_format",
+        "enterprise_id",
+        "team_id",
+        "date_from",
+        "date_to",
+        "filters",
+        "query_parameters",
+        "record_count",
+        "file_size",
+        "file_path",
+        "status",
+        "progress",
+        "error_message",
+        "requested_at",
+        "started_at",
+        "completed_at",
+        "expires_at",
+        "requested_by",
+        "requested_by_email"
+      ],
+      "row_count": 40,
+      "file": "slack_audit_reports.json"
+    },
+    "slack_scheduled_messages": {
+      "columns": [
+        "id",
+        "channel",
+        "\"user\"",
+        "\"text\"",
+        "post_at",
+        "date_created",
+        "as_user",
+        "attachments",
+        "blocks",
+        "thread_ts",
+        "status",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_scheduled_messages.json"
+    },
+    "slack_audit_anomaly_allow": {
+      "columns": [
+        "id",
+        "enterprise_id",
+        "team_id",
+        "trusted_cidr",
+        "trusted_asns",
+        "enabled",
+        "description",
+        "notes",
+        "created_at",
+        "updated_at",
+        "last_modified_by"
+      ],
+      "row_count": 40,
+      "file": "slack_audit_anomaly_allow.json"
+    },
+    "slack_audit_policies": {
+      "columns": [
+        "id",
+        "policy_name",
+        "policy_type",
+        "display_name",
+        "description",
+        "enabled",
+        "configuration",
+        "rules",
+        "enterprise_id",
+        "team_id",
+        "target_entities",
+        "version",
+        "tags",
+        "notes",
+        "created_at",
+        "updated_at",
+        "created_by",
+        "updated_by"
+      ],
+      "row_count": 40,
+      "file": "slack_audit_policies.json"
+    },
+    "slack_api_calls": {
+      "columns": [
+        "id",
+        "method",
+        "url",
+        "request_params",
+        "response_data",
+        "status_code",
+        "success",
+        "error_message",
+        "timestamp",
+        "response_time_ms"
+      ],
+      "row_count": 40,
+      "file": "slack_api_calls.json"
+    },
+    "slack_messages": {
+      "columns": [
+        "ts",
+        "channel",
+        "\"user\"",
+        "\"text\"",
+        "thread_ts",
+        "reply_count",
+        "reply_users_count",
+        "latest_reply",
+        "reply_users",
+        "replies",
+        "subscribed",
+        "last_read",
+        "unread_count",
+        "\"type\"",
+        "\"subtype\"",
+        "hidden",
+        "deleted_ts",
+        "event_ts",
+        "bot_id",
+        "username",
+        "icons",
+        "inviter",
+        "topic",
+        "purpose",
+        "name",
+        "old_name",
+        "members",
+        "blocks",
+        "attachments",
+        "file_ids",
+        "markdown_text",
+        "reply_broadcast",
+        "unfurl_links",
+        "unfurl_media",
+        "icon_emoji",
+        "icon_url",
+        "link_names",
+        "parse",
+        "mrkdwn",
+        "message_metadata",
+        "as_user",
+        "is_ephemeral",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 600,
+      "file": "slack_messages.json"
+    },
+    "slack_workflow_trigger_types": {
+      "columns": [
+        "id",
+        "trigger_type",
+        "name",
+        "description",
+        "is_enabled",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_workflow_trigger_types.json"
+    },
+    "slack_shared_invites": {
+      "columns": [
+        "id",
+        "channel_name",
+        "channel_id",
+        "invite_id",
+        "team_id",
+        "target_team_id",
+        "inviter_id",
+        "is_private",
+        "free_trial_accepted",
+        "status",
+        "implicit_approval",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_shared_invites.json"
+    },
+    "slack_emojis": {
+      "columns": [
+        "id",
+        "name",
+        "url",
+        "team_id",
+        "enterprise_id",
+        "is_alias",
+        "alias_for",
+        "created_by",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_emojis.json"
+    },
+    "slack_audit_compliance": {
+      "columns": [
+        "id",
+        "framework",
+        "framework_version",
+        "requirement_id",
+        "requirement_name",
+        "requirement_description",
+        "status",
+        "compliance_level",
+        "evidence",
+        "gaps",
+        "enterprise_id",
+        "team_id",
+        "applicable_entities",
+        "reviewed_by",
+        "reviewed_at",
+        "approved_by",
+        "approved_at",
+        "created_at",
+        "updated_at",
+        "next_review_date"
+      ],
+      "row_count": 40,
+      "file": "slack_audit_compliance.json"
+    },
+    "slack_roles": {
+      "columns": [
+        "id",
+        "name",
+        "description",
+        "is_active",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_roles.json"
+    },
+    "slack_user_groups": {
+      "columns": [
+        "id",
+        "team_id",
+        "enterprise_id",
+        "name",
+        "description",
+        "handle",
+        "is_external",
+        "is_active",
+        "auto_type",
+        "member_count",
+        "user_ids",
+        "date_create",
+        "date_update",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_user_groups.json"
+    },
+    "slack_usergroup_teams": {
+      "columns": [
+        "id",
+        "usergroup_id",
+        "team_id",
+        "enterprise_id",
+        "auto_provisioned",
+        "added_by",
+        "added_at",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_usergroup_teams.json"
+    },
+    "slack_calls": {
+      "columns": [
+        "id",
+        "external_unique_id",
+        "join_url",
+        "created_by",
+        "date_start",
+        "desktop_app_join_url",
+        "external_display_id",
+        "title",
+        "status",
+        "duration",
+        "created_at",
+        "updated_at",
+        "ended_at"
+      ],
+      "row_count": 40,
+      "file": "slack_calls.json"
+    },
+    "slack_functions": {
+      "columns": [
+        "id",
+        "name",
+        "description",
+        "team_id",
+        "enterprise_id",
+        "created_by",
+        "created_at",
+        "updated_at",
+        "status",
+        "version",
+        "runtime",
+        "timeout",
+        "memory_limit",
+        "triggers",
+        "permissions",
+        "is_public",
+        "execution_count",
+        "last_executed",
+        "error_count",
+        "success_rate",
+        "db_created_at",
+        "db_updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_functions.json"
+    },
+    "slack_audit_logs": {
+      "columns": [
+        "id",
+        "event_id",
+        "event_type",
+        "event_category",
+        "event_source",
+        "actor_id",
+        "actor_type",
+        "actor_email",
+        "actor_name",
+        "target_id",
+        "target_type",
+        "target_name",
+        "action",
+        "description",
+        "details",
+        "changes",
+        "team_id",
+        "enterprise_id",
+        "channel_id",
+        "ip_address",
+        "user_agent",
+        "event_time",
+        "created_at",
+        "status",
+        "error_message",
+        "metadata_json"
+      ],
+      "row_count": 40,
+      "file": "slack_audit_logs.json"
+    },
+    "slack_enterprises": {
+      "columns": [
+        "id",
+        "name",
+        "domain",
+        "is_verified",
+        "date_created",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 8,
+      "file": "slack_enterprises.json"
+    },
+    "slack_apps": {
+      "columns": [
+        "id",
+        "name",
+        "description",
+        "help_url",
+        "privacy_policy_url",
+        "app_homepage_url",
+        "app_directory_url",
+        "is_app_directory_approved",
+        "is_internal",
+        "developer_type",
+        "socket_mode_enabled",
+        "additional_info",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_apps.json"
+    },
+    "slack_audit_anomaly_events": {
+      "columns": [
+        "id",
+        "event_id",
+        "anomaly_type",
+        "severity",
+        "detection_method",
+        "confidence_score",
+        "risk_score",
+        "user_id",
+        "team_id",
+        "enterprise_id",
+        "ip_address",
+        "user_agent",
+        "location",
+        "description",
+        "indicators",
+        "context",
+        "status",
+        "resolution",
+        "resolved_by",
+        "resolved_at",
+        "detected_at",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_audit_anomaly_events.json"
+    },
+    "slack_emoji_aliases": {
+      "columns": [
+        "id",
+        "alias_name",
+        "original_name",
+        "team_id",
+        "enterprise_id",
+        "created_by",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_emoji_aliases.json"
+    },
+    "slack_usergroup_channels": {
+      "columns": [
+        "id",
+        "usergroup_id",
+        "channel_id",
+        "team_id",
+        "is_default",
+        "added_by",
+        "added_at",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_usergroup_channels.json"
+    },
+    "slack_channels": {
+      "columns": [
+        "id",
+        "name",
+        "team_id",
+        "is_channel",
+        "is_group",
+        "is_im",
+        "is_mpim",
+        "is_private",
+        "is_archived",
+        "is_general",
+        "unlinked",
+        "name_normalized",
+        "is_shared",
+        "is_org_shared",
+        "is_pending_ext_shared",
+        "pending_shared",
+        "context_team_id",
+        "updated",
+        "parent_conversation",
+        "creator",
+        "is_ext_shared",
+        "shared_team_ids",
+        "pending_connected_team_ids",
+        "is_member",
+        "last_read",
+        "topic",
+        "purpose",
+        "previous_names",
+        "num_members",
+        "locale",
+        "user_id",
+        "is_policy_enabled",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 80,
+      "file": "slack_channels.json"
+    },
+    "slack_barriers": {
+      "columns": [
+        "id",
+        "barrier_id",
+        "enterprise_id",
+        "primary_usergroup_id",
+        "primary_usergroup_name",
+        "barriered_from_usergroup_ids",
+        "barriered_from_usergroup_names",
+        "restricted_subjects",
+        "enabled",
+        "description",
+        "notes",
+        "date_update",
+        "created_at",
+        "updated_at",
+        "created_by",
+        "updated_by"
+      ],
+      "row_count": 40,
+      "file": "slack_barriers.json"
+    },
+    "slack_invite_requests": {
+      "columns": [
+        "id",
+        "team_id",
+        "enterprise_id",
+        "email",
+        "first_name",
+        "last_name",
+        "message",
+        "status",
+        "requested_at",
+        "processed_at",
+        "processed_by",
+        "approval_reason",
+        "invite_sent",
+        "invite_sent_at",
+        "db_created_at",
+        "db_updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_invite_requests.json"
+    },
+    "slack_emoji_categories": {
+      "columns": [
+        "id",
+        "name",
+        "emoji_names",
+        "display_order",
+        "is_active",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_emoji_categories.json"
+    },
+    "slack_users": {
+      "columns": [
+        "id",
+        "name",
+        "real_name",
+        "is_bot",
+        "is_app_user",
+        "team_id",
+        "deleted",
+        "color",
+        "is_email_confirmed",
+        "tz",
+        "tz_label",
+        "tz_offset",
+        "is_admin",
+        "is_owner",
+        "is_primary_owner",
+        "is_restricted",
+        "is_ultra_restricted",
+        "who_can_share_contact_card",
+        "updated",
+        "profile_data",
+        "bot_id",
+        "api_app_id",
+        "always_active",
+        "created_at",
+        "last_synced"
+      ],
+      "row_count": 99,
+      "file": "slack_users.json"
+    },
+    "slack_function_permissions": {
+      "columns": [
+        "id",
+        "function_id",
+        "permission",
+        "description",
+        "required",
+        "scope",
+        "granted",
+        "granted_at",
+        "granted_by",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_function_permissions.json"
+    },
+    "slack_function_executions": {
+      "columns": [
+        "id",
+        "function_id",
+        "execution_id",
+        "trigger_type",
+        "trigger_data",
+        "status",
+        "start_time",
+        "end_time",
+        "duration_ms",
+        "result",
+        "error_message",
+        "logs",
+        "user_id",
+        "team_id",
+        "channel_id",
+        "created_at"
+      ],
+      "row_count": 40,
+      "file": "slack_function_executions.json"
+    },
+    "slack_function_grants": {
+      "columns": [
+        "id",
+        "function_id",
+        "permission",
+        "granted_by",
+        "granted_at",
+        "grant_reason",
+        "team_id",
+        "enterprise_id",
+        "created_at"
+      ],
+      "row_count": 40,
+      "file": "slack_function_grants.json"
+    },
+    "slack_teams": {
+      "columns": [
+        "id",
+        "name",
+        "domain",
+        "email_domain",
+        "description",
+        "discoverability",
+        "icon",
+        "enterprise_id",
+        "enterprise_name",
+        "is_verified",
+        "date_created",
+        "created_at",
+        "last_synced",
+        "updated_at"
+      ],
+      "row_count": 24,
+      "file": "slack_teams.json"
+    },
+    "slack_app_scopes": {
+      "columns": [
+        "id",
+        "app_id",
+        "name",
+        "description",
+        "is_sensitive",
+        "token_type",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_app_scopes.json"
+    },
+    "slack_app_icons": {
+      "columns": [
+        "id",
+        "app_id",
+        "size",
+        "url",
+        "created_at"
+      ],
+      "row_count": 40,
+      "file": "slack_app_icons.json"
+    },
+    "slack_app_requests": {
+      "columns": [
+        "id",
+        "app_id",
+        "enterprise_id",
+        "team_id",
+        "user_id",
+        "user_name",
+        "user_email",
+        "team_name",
+        "team_domain",
+        "message",
+        "is_user_app_collaborator",
+        "status",
+        "date_created",
+        "date_updated"
+      ],
+      "row_count": 40,
+      "file": "slack_app_requests.json"
+    },
+    "slack_approved_apps": {
+      "columns": [
+        "id",
+        "app_id",
+        "enterprise_id",
+        "team_id",
+        "date_updated",
+        "last_resolved_by_actor_id",
+        "last_resolved_by_actor_type",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_approved_apps.json"
+    },
+    "slack_restricted_apps": {
+      "columns": [
+        "id",
+        "app_id",
+        "enterprise_id",
+        "team_id",
+        "date_updated",
+        "last_resolved_by_actor_id",
+        "last_resolved_by_actor_type",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_restricted_apps.json"
+    },
+    "slack_app_configs": {
+      "columns": [
+        "id",
+        "app_id",
+        "workflow_auth_strategy",
+        "rich_link_preview_type",
+        "domain_restrictions_emails",
+        "domain_restrictions_urls",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_app_configs.json"
+    },
+    "slack_channel_restrictions": {
+      "columns": [
+        "id",
+        "channel_id",
+        "group_id",
+        "team_id",
+        "enterprise_id",
+        "is_active",
+        "deactivated_at",
+        "created_at",
+        "created_by",
+        "updated_at",
+        "updated_by"
+      ],
+      "row_count": 40,
+      "file": "slack_channel_restrictions.json"
+    },
+    "slack_invites": {
+      "columns": [
+        "id",
+        "team_id",
+        "enterprise_id",
+        "email",
+        "inviter_id",
+        "invite_request_id",
+        "status",
+        "date_created",
+        "date_resent",
+        "date_expires",
+        "date_accepted",
+        "is_restricted",
+        "is_ultra_restricted",
+        "is_domain_matched",
+        "real_name",
+        "is_bouncing",
+        "bounce_reason",
+        "db_created_at",
+        "db_updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_invites.json"
+    },
+    "slack_invite_request_channels": {
+      "columns": [
+        "id",
+        "invite_request_id",
+        "channel_id",
+        "created_at"
+      ],
+      "row_count": 40,
+      "file": "slack_invite_request_channels.json"
+    },
+    "slack_role_assignments": {
+      "columns": [
+        "id",
+        "role_id",
+        "entity_id",
+        "entity_type",
+        "user_id",
+        "assigned_by",
+        "date_create",
+        "is_active",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_role_assignments.json"
+    },
+    "slack_call_participants": {
+      "columns": [
+        "id",
+        "call_id",
+        "slack_id",
+        "external_id",
+        "display_name",
+        "avatar_url",
+        "status",
+        "added_at",
+        "joined_at",
+        "left_at",
+        "removed_at"
+      ],
+      "row_count": 40,
+      "file": "slack_call_participants.json"
+    },
+    "slack_user_sessions": {
+      "columns": [
+        "id",
+        "session_id",
+        "user_id",
+        "team_id",
+        "session_type",
+        "session_status",
+        "ip_address",
+        "user_agent",
+        "device_info",
+        "location",
+        "created_at",
+        "last_activity",
+        "expires_at",
+        "is_active",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_user_sessions.json"
+    },
+    "slack_user_unsupported_versions": {
+      "columns": [
+        "id",
+        "user_id",
+        "team_id",
+        "client_version",
+        "platform",
+        "status",
+        "last_seen",
+        "recommended_version",
+        "security_risk",
+        "update_required",
+        "compliance_status",
+        "created_at",
+        "updated_at"
+      ],
+      "row_count": 40,
+      "file": "slack_user_unsupported_versions.json"
+    },
+    "slack_workflows": {
+      "columns": [
+        "id",
+        "name",
+        "description",
+        "team_id",
+        "creator_id",
+        "workflow_type",
+        "status",
+        "workflow_data",
+        "created_at",
+        "updated_at",
+        "is_public",
+        "version"
+      ],
+      "row_count": 40,
+      "file": "slack_workflows.json"
+    },
+    "slack_workflow_trigger_type_permissions": {
+      "columns": [
+        "id",
+        "trigger_type_id",
+        "team_id",
+        "requires_scope",
+        "requires_channel_access",
+        "requires_user_permission",
+        "allowed_channels",
+        "restricted_channels",
+        "created_at",
+        "updated_at",
+        "created_by"
+      ],
+      "row_count": 40,
+      "file": "slack_workflow_trigger_type_permissions.json"
+    },
+    "slack_invite_channels": {
+      "columns": [
+        "id",
+        "invite_id",
+        "channel_id",
+        "created_at"
+      ],
+      "row_count": 40,
+      "file": "slack_invite_channels.json"
+    },
+    "slack_workflow_collaborators": {
+      "columns": [
+        "id",
+        "workflow_id",
+        "user_id",
+        "team_id",
+        "permission_level",
+        "added_by",
+        "created_at",
+        "updated_at",
+        "is_active"
+      ],
+      "row_count": 40,
+      "file": "slack_workflow_collaborators.json"
+    },
+    "slack_workflow_triggers": {
+      "columns": [
+        "id",
+        "workflow_id",
+        "trigger_type_id",
+        "channel_id",
+        "is_active",
+        "created_at",
+        "updated_at",
+        "created_by"
+      ],
+      "row_count": 40,
+      "file": "slack_workflow_triggers.json"
+    }
+  }
+}
