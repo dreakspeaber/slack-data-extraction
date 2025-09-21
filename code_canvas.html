@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Canvas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material-darker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/javascript/javascript.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Make CodeMirror responsive by default */
+        .CodeMirror {
+            height: 100%;
+            border-radius: 0.5rem;
+            font-size: 16px;
+        }
+        
+        /* Fullscreen mode styles */
+        .editor-fullscreen .CodeMirror {
+            height: 100vh;
+            width: 100vw;
+            border-radius: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .CodeMirror-gutters {
+            background: #2c313a !important;
+            border-right: 1px solid #4a5568;
+        }
+        .CodeMirror-vscrollbar {
+            overflow-y: auto;
+        }
+        .CodeMirror-hscrollbar {
+            overflow-x: auto;
+        }
+        .CodeMirror-scroll {
+            overflow: auto;
+        }
+        .CodeMirror-sizer {
+            min-width: 100%;
+        }
+        
+        /* Hide header when editor is full screen */
+        .editor-fullscreen .header {
+            display: none;
+        }
+        
+        /* Full screen toggle button */
+        .fullscreen-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1001;
+            background: rgba(55, 65, 81, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid #4b5563;
+            color: white;
+            padding: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .fullscreen-toggle:hover {
+            background: rgba(75, 85, 99, 0.9);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white h-full flex flex-col antialiased">
+
+    <!-- Header -->
+    <header class="header bg-gray-800/50 backdrop-blur-sm border-b border-gray-700 p-4 flex items-center justify-between z-10 shadow-lg">
+        <div class="flex items-center space-x-3">
+            <svg class="w-8 h-8 text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+            </svg>
+            <h1 class="text-xl font-bold text-gray-200">Code Canvas</h1>
+        </div>
+        <button id="run-button" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded-lg transition-all duration-200 ease-in-out flex items-center space-x-2 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+            </svg>
+            <span>Run</span>
+        </button>
+    </header>
+
+    <!-- Full Screen Toggle Button -->
+    <button id="fullscreen-toggle" class="fullscreen-toggle" title="Toggle Full Screen">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+        </svg>
+    </button>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col md:flex-row gap-4 p-4 overflow-hidden">
+        <!-- Code Editor Section -->
+        <div id="editor-container" class="w-full md:w-1/2 h-1/2 md:h-full flex flex-col bg-gray-800 rounded-lg shadow-2xl">
+            <div class="flex-shrink-0 bg-gray-700/50 p-3 flex items-center justify-between rounded-t-lg border-b border-gray-600">
+                <h2 class="text-lg font-semibold text-gray-300">JavaScript Editor</h2>
+                 <button id="copy-button" class="text-gray-400 hover:text-white transition-colors" title="Copy code">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex-grow relative">
+                 <textarea id="code-editor" class="w-full h-full bg-gray-800 text-white"></textarea>
+            </div>
+        </div>
+
+        <!-- Output Section -->
+        <div class="w-full md:w-1/2 h-1/2 md:h-full flex flex-col bg-gray-800 rounded-lg shadow-2xl">
+            <div class="flex-shrink-0 bg-gray-700/50 p-3 flex items-center justify-between rounded-t-lg border-b border-gray-600">
+                <h2 class="text-lg font-semibold text-gray-300">Console Output</h2>
+                <button id="clear-button" class="text-gray-400 hover:text-white transition-colors" title="Clear console">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                    </svg>
+                </button>
+            </div>
+            <pre id="output" class="flex-grow p-4 text-sm whitespace-pre-wrap overflow-auto font-mono bg-gray-900/50 rounded-b-lg"></pre>
+        </div>
+    </main>
+
+    <!-- Notification for copy -->
+    <div id="copy-notification" class="fixed bottom-5 right-5 bg-green-500 text-white py-2 px-4 rounded-lg shadow-lg opacity-0 transform translate-y-2 transition-all duration-300">
+        Code copied to clipboard!
+    </div>
+
+    <script>
+        // Initialize CodeMirror editor
+        const editor = CodeMirror.fromTextArea(document.getElementById('code-editor'), {
+            lineNumbers: true,
+            mode: 'javascript',
+            theme: 'material-darker',
+            lineWrapping: false,
+            autofocus: true,
+            scrollbarStyle: 'native',
+            viewportMargin: Infinity,
+        });
+
+        // Set some default code
+        const defaultCode = `// Welcome to Code Canvas!
+// Write your JavaScript here and click 'Run'.
+// This is a very long line of code that demonstrates horizontal scrolling when you toggle fullscreen mode and the editor expands to fill the entire viewport width and height with proper scrollbars for both horizontal and vertical navigation.
+
+function greet(name) {
+  return \`Hello, \${name}!\`;
+}
+
+console.log(greet('World'));
+
+// You can also log objects and arrays
+const user = {
+    id: 1,
+    name: 'Alice',
+    skills: ['JavaScript', 'HTML', 'CSS']
+};
+console.log('User object:', user);
+
+// Try some math!
+for(let i=1; i <= 5; i++) {
+    console.log(\`2^ \${i} = \`, Math.pow(2, i));
+}
+
+// This is another very long line of code that will definitely require horizontal scrolling when the editor is in fullscreen mode, especially if you have a lot of nested function calls or very long variable names and method chaining like this: someVeryLongVariableName.someMethod().anotherMethod().yetAnotherMethod().finalMethod();
+`;
+        editor.setValue(defaultCode);
+        
+        const runButton = document.getElementById('run-button');
+        const clearButton = document.getElementById('clear-button');
+        const copyButton = document.getElementById('copy-button');
+        const outputEl = document.getElementById('output');
+        const copyNotification = document.getElementById('copy-notification');
+        const fullscreenToggle = document.getElementById('fullscreen-toggle');
+        const body = document.body;
+
+        // Function to handle logging from executed code
+        const handleLog = (type) => (...args) => {
+            const message = args.map(arg => {
+                if (typeof arg === 'object' && arg !== null) {
+                    try {
+                        return JSON.stringify(arg, null, 2);
+                    } catch (e) {
+                        return '[Circular Object]';
+                    }
+                }
+                return String(arg);
+            }).join(' ');
+
+            const logEntry = document.createElement('div');
+            logEntry.textContent = message;
+
+            switch (type) {
+                case 'error':
+                    logEntry.className = 'text-red-400 border-l-2 border-red-400 pl-2 mb-1';
+                    break;
+                case 'warn':
+                    logEntry.className = 'text-yellow-400 border-l-2 border-yellow-400 pl-2 mb-1';
+                    break;
+                default:
+                    logEntry.className = 'text-gray-300 mb-1';
+            }
+
+            outputEl.appendChild(logEntry);
+            outputEl.scrollTop = outputEl.scrollHeight;
+        };
+
+        // Run code on button click
+        runButton.addEventListener('click', () => {
+            const code = editor.getValue();
+            outputEl.innerHTML = '<div class="text-gray-500 italic mb-2">// Console output...</div>';
+
+            // Override console methods to capture logs
+            const customConsole = {
+                log: handleLog('log'),
+                error: handleLog('error'),
+                warn: handleLog('warn'),
+                info: handleLog('info'),
+                debug: handleLog('debug')
+            };
+
+            try {
+                // Execute code in a sandboxed function
+                const sandboxedRun = new Function('console', code);
+                sandboxedRun(customConsole);
+            } catch (error) {
+                customConsole.error(error.toString());
+            }
+        });
+
+        // Clear console button
+        clearButton.addEventListener('click', () => {
+            outputEl.innerHTML = '<div class="text-gray-500 italic mb-2">// Console cleared</div>';
+        });
+        
+        // Copy code button
+        copyButton.addEventListener('click', () => {
+            const codeToCopy = editor.getValue();
+            // Using a temporary textarea to copy to clipboard
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeToCopy;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            
+            try {
+                // Deprecated but has wider browser support in iframes
+                document.execCommand('copy');
+                // Show notification
+                copyNotification.classList.remove('opacity-0', 'translate-y-2');
+                copyNotification.classList.add('opacity-100', 'translate-y-0');
+                setTimeout(() => {
+                    copyNotification.classList.remove('opacity-100', 'translate-y-0');
+                    copyNotification.classList.add('opacity-0', 'translate-y-2');
+                }, 2000);
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+            }
+            document.body.removeChild(tempTextArea);
+        });
+
+        // Fullscreen toggle functionality
+        let isFullscreen = false;
+        
+        fullscreenToggle.addEventListener('click', () => {
+            isFullscreen = !isFullscreen;
+            
+            if (isFullscreen) {
+                // Enter fullscreen mode
+                body.classList.add('editor-fullscreen');
+                editor.refresh();
+                
+                // Update toggle button icon to show exit fullscreen
+                fullscreenToggle.innerHTML = `
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
+                    </svg>
+                `;
+                fullscreenToggle.title = 'Exit Full Screen';
+            } else {
+                // Exit fullscreen mode
+                body.classList.remove('editor-fullscreen');
+                editor.refresh();
+                
+                // Update toggle button icon to show enter fullscreen
+                fullscreenToggle.innerHTML = `
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+                    </svg>
+                `;
+                fullscreenToggle.title = 'Toggle Full Screen';
+            }
+        });
+
+        // Initial run to show something in the output
+        runButton.click();
+
+    </script>
+</body>
+</html>
